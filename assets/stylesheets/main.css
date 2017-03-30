@@ -52,7 +52,7 @@ body{
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #F5F5F5;
+	background-color: black;
 }
 
 .container{
@@ -60,7 +60,7 @@ body{
 	height: inherit;
 	margin-bottom: 50px;
 	padding:0;
-	background-color: #F5F5F5;
+	background-color: black;
 	position: relative;
 }
 
@@ -76,9 +76,8 @@ p{
   font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 25%;
 	margin-right: 25%;
-	margin-top: 10px;
-	margin-bottom: 10px;
-
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 h2{
@@ -120,6 +119,14 @@ h3{
 	font-size: 30px;
 	color: #DB5461;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 40px;
+}
+
+h4{
+	font-size: 40px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
 }
 
 #contact{
@@ -154,4 +161,8 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+img{
+	display: inline-block;
 }
