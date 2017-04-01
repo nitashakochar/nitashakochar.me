@@ -58,10 +58,21 @@ body{
 .container{
 	width: inherit;
 	height: inherit;
-	margin-bottom: 50px;
 	padding:0;
-	background-color: black;
 	position: relative;
+}
+
+body{
+	background-color: pink;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color: pink;}
+    50%  {background-color: black;}
+		100% {background-color: pink;}
 }
 
 h1{
@@ -72,7 +83,7 @@ h1{
 }
 
 p{
-  color: white;
+  color: #DB5461;
   font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 25%;
 	margin-right: 25%;
@@ -102,7 +113,7 @@ h2{
 	background-color: white;
  }
 
-#projects{
+.projects{
 		width:auto;
 }
 
@@ -129,11 +140,11 @@ h4{
 	margin: auto;
 }
 
-#contact{
+.contact{
 	margin-top: 50px;
 }
 
-#lines{
+.lines{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -165,4 +176,8 @@ li a:hover {
 
 img{
 	display: inline-block;
+}
+
+.home{
+
 }
