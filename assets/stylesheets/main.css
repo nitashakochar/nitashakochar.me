@@ -12,7 +12,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -63,7 +62,6 @@ body {
   animation-iteration-count: infinite;*/
 }
 
-
 /*@keyframes example {
   0% {
     background-color: pink;
@@ -105,10 +103,7 @@ h2 {
 
 a {
   color: white;
-}
-
-a:visited {
-  color: yellow;
+  font-family: sans-serif;
 }
 
 #profileimage {
