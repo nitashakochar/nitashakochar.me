@@ -12,8 +12,8 @@ html, body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   height: 1000px;
 }
 
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  color: rgb(29, 228, 204);
+  color: rgba(70, 130, 147, 0.83);
 }
 
 nav {
@@ -63,7 +63,6 @@ p {
 }
 
 .bio {
-  padding-top: 30px;
   display: flex;
 }
 
@@ -73,20 +72,118 @@ a {
 }
 
 #profileimage {
-  margin: auto;
-  width: 275px;
-  height: 375.55px;
   margin-top: 20px;
-  border: 1px solid black;
-  padding: 10px;
-  background-color: white;
-  align-self: flex-end;
 }
 
 .boxes {
   margin: 10px;
   background-color: white;
   margin-bottom: 20px;
+}
+
+.view {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+
+.view .mask, .view .content {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+.view img {
+  display: block;
+  position: relative
+}
+
+.view h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 20px 0 0 0
+}
+
+.view p {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+  text-align: center
+}
+
+.view a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000
+}
+
+.view a.info:hover {
+  box-shadow: 0 0 5px #000
+}
+
+.view-hover img {
+  transition: all 0.3s ease-in-out;
+}
+
+.view-hover .mask {
+  background-color: rgba(70, 130, 147, 0.3);
+  transform: translateX(-300px);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.view-hover h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+
+.view-hover p {
+  opacity: 0;
+  color: #333;
+  transition: all 0.2s linear;
+}
+
+.view-hover:hover .mask {
+  transform: translateX(0px);
+}
+
+.view-hover:hover img {
+  transform: translateX(300px);
+  transition-delay: 0.1s;
+}
+
+.view-hover:hover p {
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+
+h1 {
+  align-self: flex-start;
+  font-family: 'Lato', sans-serif;
 }
 
 h4 {
@@ -96,7 +193,7 @@ h4 {
   margin: auto;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -105,24 +202,24 @@ ul {
   justify-content: flex-end;
 }
 
-li {
+nav li {
   margin: 10px;
 }
 
-li a {
+nav i a {
   color: black;
   text-align: center;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
 
-li a:hover {
-  background-color: rgb(81, 190, 158);
+nav li a:hover {
+  background-color: rgba(70, 130, 147, 0.3);
 }
 
 #about {
   display: none;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .project-list {
@@ -130,27 +227,58 @@ li a:hover {
   width: 100%;
   flex-wrap: wrap;
   flex-grow: 1;
+  justify-content: center;
 }
 
 .flex-box-1 {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
   justify-content: center;
 }
 
 .flex-box-2 {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
   justify-content: center;
 }
 
+.col-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 50%;
+}
+
 footer {
-  background-color: black;
-  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 0;
-  position: fixed;
+  position: static;
   bottom: 0;
-  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer li {
+  color: black;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
 }
