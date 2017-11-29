@@ -6,6 +6,7 @@ html, body {
   max-width: 100%;
   min-height: 100%;
   max-height: 100%;
+  background-color: rgb(205, 233, 230)
 }
 
 .flex-container {
@@ -14,6 +15,8 @@ html, body {
   margin-left: 15%;
   margin-right: 15%;
   height: 100%;
+  border-bottom: 1px rgb(129, 182, 176) solid;
+  border-top: 3px rgb(129, 182, 176) solid;
 }
 
 header {
@@ -31,7 +34,7 @@ header {
   cursor: pointer;
 }
 
-span {
+.logo span {
   font-weight: 300;
 }
 
@@ -42,6 +45,8 @@ button {
   style: none;
   outline: none;
   cursor: pointer;
+  background-color: rgb(205, 233, 230);
+  color: rgb(59, 59, 59);
 }
 
 button:hover {
@@ -50,7 +55,7 @@ button:hover {
 
 nav {
   padding-top: 80px;
-  border-bottom: 1px black solid;
+  border-bottom: 2px rgb(129, 182, 176) solid;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -75,14 +80,41 @@ nav li {
 
 p {
   display: flex;
-  color: black;
+  color: rgb(59, 59, 59);
   font-family: 'Source Sans Pro', sans-serif;
   margin: 10px 10px 20px 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .bio {
   display: flex;
+  border-bottom: 1px rgb(129, 182, 176) solid;
+  padding-bottom: 25px;
+}
+
+.links {
+  width: 100%;
+}
+
+.linked-list {
+  padding: 0px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.linked-list li {
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linked-list a {
+  color: rgb(59, 59, 59);
 }
 
 a {
@@ -105,7 +137,8 @@ a {
   height: 200px;
   margin: 10px;
   float: left;
-  border: 10px solid #fff;
+  border: 10px solid #FCFBE3;
+  ;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -134,17 +167,23 @@ a {
   text-align: center;
   position: relative;
   font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  padding: 10px 10px 5px 10px;
-  background: rgba(0, 0, 0, 0.8);
-  margin: 10px 0 0 0
+  font-size: 14px;
+  padding: 10px 5px 5px 5px;
+  background: rgb(59, 59, 59);
+  margin: 0 0 0 0;
+  font-weight: 400;
+}
+
+.title span {
+  font-weight: bold;
+  font-size: 17px
 }
 
 .view p {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: rgb(59, 59, 59);
   text-align: center
 }
 
@@ -152,14 +191,14 @@ a {
   display: inline-block;
   text-decoration: none;
   padding: 1px 14px;
-  background: #000;
+  background: rgb(59, 59, 59);
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  box-shadow: 0 0 1px #000
+  box-shadow: 0 0 1px rgb(59, 59, 59)
 }
 
 .view a.info:hover {
-  box-shadow: 0 0 5px #000
+  box-shadow: 0 0 5px rgb(59, 59, 59)
 }
 
 .view-hover img {
@@ -167,14 +206,14 @@ a {
 }
 
 .view-hover .mask {
-  background-color: rgba(113, 215, 218, 1);
+  background-color: rgb(131, 191, 186);
   transform: translateX(-300px);
   transition: all 0.4s ease-in-out;
 }
 
 .view-hover h2 {
   background: rgba(255, 255, 255, 0.5);
-  color: #000;
+  color: rgb(59, 59, 59);
   box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
 }
 
@@ -201,6 +240,8 @@ a {
 h1 {
   align-self: flex-start;
   font-family: 'Lato', sans-serif;
+  color: rgb(59, 59, 59);
+  font-size: 20px;
 }
 
 h4 {
@@ -233,6 +274,7 @@ h4 {
 .flex-box-2 {
   display: flex;
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   justify-content: center;
 }
@@ -275,6 +317,7 @@ footer ul li {
   margin-left: 10px;
   font-size: 13px;
   margin-bottom: 10px;
+  color: rgb(59, 59, 59);
 }
 
 footer li a {
@@ -287,8 +330,12 @@ footer li a:hover {
 
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
   /* Styles */
+  .flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .flex-box-1 {
     display: flex;
     flex-direction: column;
@@ -306,13 +353,18 @@ footer li a:hover {
   .bio {
     display: flex;
   }
+  .linked-list {
+    width: 100%;
+  }
   #profileimage {
-    width: 300px;
+    padding-bottom: 0px;
+    width: 400px;
+    align-self: center;
   }
   .logo {
     display: flex;
     font-size: 40px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgb(129, 182, 176) solid;
     width: 100%;
     justify-content: center;
   }
@@ -328,6 +380,16 @@ footer li a:hover {
   }
   nav li {
     margin: 0px;
+  }
+  footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+  }
+  .flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
   }
   footer ul {
     flex-direction: column;
@@ -348,20 +410,17 @@ footer li a:hover {
     height: 160px;
   }
   .view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-family: 'Lato', sans-serif;
     font-size: 12px;
-    background: rgba(0, 0, 0, 0.8);
+  }
+  .title span {
+    font-weight: bold;
+    font-size: 14px
   }
   .view p {
     font-family: 'Lato', sans-serif;
     font-size: 10px;
-    margin: 10px;
-    color: #fff;
-    text-align: center
+    margin: 15px 10px 15px 10px;
+    color: #000000;
   }
   .view a.info {
     display: inline-block;
@@ -370,7 +429,8 @@ footer li a:hover {
     background: #000;
     color: #fff;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000
+    box-shadow: 0 0 1px #000;
+    font-size: 14px;
   }
 }
 
