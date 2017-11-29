@@ -4,6 +4,8 @@ function showAbout() {
     div.style.display = "flex";
     div2 = document.getElementById('projects');
     div2.style.display = "none";
+    div3 = document.getElementById('gallery');
+    div3.style.display = "none";
 }
 
 function showProjects() {
@@ -11,6 +13,8 @@ function showProjects() {
     div.style.display = "flex";
     div2 = document.getElementById('about');
     div2.style.display = "none";
+    div3 = document.getElementById('gallery');
+    div3.style.display = "none";
 }
 
 function showProjects2() {
@@ -18,4 +22,15 @@ function showProjects2() {
     div.style.display = "flex";
     div2 = document.getElementById('about');
     div2.style.display = "none";
+    div3 = document.getElementById('gallery');
+    div3.style.display = "none";
+}
+
+function showGallery() {
+    div = document.getElementById('gallery');
+    div.style.display = "flex";
+    div2 = document.getElementById('about');
+    div2.style.display = "none";
+    div3 = document.getElementById('projects');
+    div3.style.display = "none";
 }

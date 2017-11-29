@@ -6,25 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Nitasha Kochar</title>
   <link rel="stylesheet" href="assets/stylesheets/main.css">
-  <link rel="stylesheet" href="assets/stylesheets/main.sass">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <script src="main.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 
 <body>
   <div class="flex-container">
     <header>
       <nav>
-        <h1 class="logo" onclick="javascript:showProjects2();">Nitasha <span>Kochar</span></h1>
+        <h1 class="logo" onclick="showProjects2();">Nitasha <span>Kochar</span></h1>
         <ul>
-          <li><button id="projectpage" onclick="javascript:showProjects();">PROJECTS</button></li>
-          <li><button id="aboutpage" onclick="javascript:showAbout();">ABOUT</button></li>
+          <li><button id="projectpage" onclick="showProjects()">PROJECTS</button></li>
+          <li><button id="aboutpage" onclick="showAbout();">ABOUT</button></li>
+          <li><button id="gallerypage" onclick="showGallery();">GALLERY</button></li>
         </ul>
       </nav>
     </header>
 
-    <div class="flex-box-1" id="about">
+    <div class="flex-box-1 hidden" id="about">
       <div class="col-1">
         <h1>About me...</h1>
         <p class="bio">
@@ -54,8 +59,6 @@
               </p>
             </li>
           </ul>
-
-
         </div>
       </div>
       <div class="col-2">
@@ -72,7 +75,7 @@
           <div class="mask">
             <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College </h2>
             <p> Outlined feature specs and designed user-flow for an iOS application that aims to teach young males with Autism Spectrum Disorder how to practice a calming qigong massage.</p>
-            <a href="https://github.com/dali-lab/asd/wiki" class="info">Learn More</a>
+            <a href="https://github.com/dali-lab/asd/wiki" target="_blank" class="info">Learn More</a>
           </div>
         </div>
         <div class="view view-hover">
@@ -80,7 +83,7 @@
           <div class="mask">
             <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College </h2>
             <p>Implemented designs for Deloitte Neuroscience Institute’s website using Javascript and HTML5/CSS.</p>
-            <a href="http://dni.dali.dartmouth.edu/" class="info">Check it out</a>
+            <a href="http://dni.dali.dartmouth.edu/" target="_blank" class="info">Check it out</a>
           </div>
         </div>
         <div class="view view-hover">
@@ -88,10 +91,9 @@
           <div class="mask">
             <h2 class="title"><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
             <p>Collaborative note-taking web app with real-time editing; built with React and Firebase.</p>
-            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" class="info">Check it out</a>
+            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" target="_blank" class="info">Check it out</a>
           </div>
         </div>
-
         <div class="view view-hover">
           <img class="view-image" src="assets/blog.png" />
           <div class="mask">
@@ -100,9 +102,16 @@
             <a href="http://lab4-nitashakochar.surge.sh/" class="info">Check it out</a>
           </div>
         </div>
-
       </div>
     </div>
+
+
+    <!-- 2. Add images to <div class="fotorama"></div>. -->
+    <div class="fotorama hidden" data-nav="thumbs" id="gallery">
+      <img src="http://s.fotorama.io/1.jpg">
+      <img src="http://s.fotorama.io/2.jpg">
+    </div>
+
   </div>
 
   <footer>
@@ -114,8 +123,7 @@
       <li><a href="https://www.instagram.com/datashkid/">Instagram</a></li>
     </ul>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="main.js"></script>
+
 </body>
 
 </html>

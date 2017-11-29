@@ -6,7 +6,7 @@ html, body {
   max-width: 100%;
   min-height: 100%;
   max-height: 100%;
-  background-color: rgb(205, 233, 230)
+  background-color: rgb(217, 232, 230);
 }
 
 .flex-container {
@@ -38,6 +38,10 @@ header {
   font-weight: 300;
 }
 
+.hidden {
+  display: none;
+}
+
 button {
   border: none;
   font-family: 'Lato', sans-serif;
@@ -45,12 +49,12 @@ button {
   style: none;
   outline: none;
   cursor: pointer;
-  background-color: rgb(205, 233, 230);
+  background-color: rgb(217, 232, 230);
   color: rgb(59, 59, 59);
 }
 
 button:hover {
-  color: rgb(47, 111, 38);
+  color: rgb(79, 170, 179);
 }
 
 nav {
@@ -117,9 +121,8 @@ p {
   color: rgb(59, 59, 59);
 }
 
-a {
-  color: white;
-  font-family: sans-serif;
+.linked-list a:hover {
+  color: rgb(79, 170, 179);
 }
 
 #profileimage {
@@ -325,7 +328,7 @@ footer li a {
 }
 
 footer li a:hover {
-  color: rgb(47, 111, 38);
+  color: rgb(79, 170, 179);
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -364,7 +367,6 @@ footer li a:hover {
   .logo {
     display: flex;
     font-size: 40px;
-    border-bottom: 1px rgb(129, 182, 176) solid;
     width: 100%;
     justify-content: center;
   }
@@ -377,6 +379,7 @@ footer li a:hover {
     margin-top: 20px;
     justify-content: center;
     width: 100%;
+    border-top: 2px rgb(129, 182, 176) solid;
   }
   nav li {
     margin: 0px;
