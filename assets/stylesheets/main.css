@@ -6,7 +6,7 @@ html, body {
   max-width: 100%;
   min-height: 100%;
   max-height: 100%;
-  background-color: rgb(217, 232, 230);
+  background-color: white;
 }
 
 .flex-container {
@@ -49,7 +49,7 @@ button {
   style: none;
   outline: none;
   cursor: pointer;
-  background-color: rgb(217, 232, 230);
+  background-color: white;
   color: rgb(59, 59, 59);
 }
 
@@ -135,12 +135,17 @@ p {
   height: 200px;
 }
 
+.ex-img {
+  height: 450px;
+  width: 225px;
+}
+
 .view {
   width: 300px;
   height: 200px;
   margin: 10px;
   float: left;
-  border: 10px solid #FCFBE3;
+  border: 2px solid white;
   ;
   overflow: hidden;
   position: relative;
@@ -248,6 +253,19 @@ h1 {
   font-size: 20px;
 }
 
+.description h1 {
+  align-self: flex-start;
+  font-family: 'Lato', sans-serif;
+  color: rgb(59, 59, 59);
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+}
+
+.description ul {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+
 h4 {
   font-size: 40px;
   color: black;
@@ -283,6 +301,33 @@ h4 {
   justify-content: center;
 }
 
+.flex-box-3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: hidden;
+}
+
+.flex-box-4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: hidden;
+}
+
+.flex-box-5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: hidden;
+}
+
 .col-1 {
   display: flex;
   flex-direction: column;
@@ -293,6 +338,32 @@ h4 {
   flex-direction: column;
   right: 0;
   left: 50%;
+}
+
+.view .info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1px 14px;
+  background: rgb(59, 59, 59);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  box-shadow: 0 0 1px rgb(59, 59, 59);
+  font-family: 'Lato', sans-serif;
+}
+
+.view .info:hover {
+  box-shadow: 0 0 5px rgb(59, 59, 59)
+}
+
+.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  font-size: 14px;
 }
 
 footer {
