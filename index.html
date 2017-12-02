@@ -20,131 +20,135 @@
   <div class="flex-container">
     <header>
       <nav>
-        <h1 class="logo" onclick="showProjects2();">Nitasha <span>Kochar</span></h1>
+        <h1 class="logo navigate" data-imageid="0">Nitasha <span>Kochar</span></h1>
         <ul>
-          <li><button id="projectpage" onclick="showProjects()">PROJECTS</button></li>
-          <li><button id="aboutpage" onclick="showAbout();">ABOUT</button></li>
-          <li><button id="gallerypage" onclick="showGallery();">GALLERY</button></li>
+          <li><button class="navigate" data-imageid="0">PROJECTS</button></li>
+          <li><button class="navigate" data-imageid="1">ABOUT</button></li>
+          <li><button class="navigate" data-imageid="2">GALLERY</button></li>
         </ul>
       </nav>
     </header>
 
-    <div class="flex-box-1 hidden" id="about">
-      <div class="col-1">
+    <div class="hidden flex-box flex-box-1" data-imageid="1">
+      <div class="col-1 ">
         <h1>About me...</h1>
-        <p class="bio">
+        <p class="bio ">
           Raised in Long Island, New York. Currently a junior at Dartmouth College majoring in Computer Science modfied with Anthropology, and minoring in Human-Centered Design.
           <br /> <br /> If I’m not sleeping, I'm either listening to music, hanging out with friends, or stumbling in the woods.
           <br /> <br /> At Dartmouth, I'm a designer & developer at the Digital Arts, Leadership, and Innovation Lab, where I am constantly exposed to creativity and innovation—the two things that fuel me most.
           <br /> <br /> I have a natural desire to solve well-defined problems in an uninhibited form, and am passionate about transforming simple ideas that could benefit others into a reality.
         </p>
-        <div class="links">
-          <ul class="linked-list">
+        <div class="links ">
+          <ul class="linked-list ">
             <li>
-              <a href="mailto:nitashakochar@gmail.com"><img src="assets/Email_2c2c2c_32.png"/></a>
+              <a href="mailto:nitashakochar@gmail.com "><img src="assets/Email_2c2c2c_32.png "/></a>
               <p>Email</p>
             </li>
             <li>
-              <a href="/nitashaKocharResume.pdf" target="_blank"> <img src="assets/Download Resume_2c2c2c_32.png" /></a>
+              <a href="/nitashaKocharResume.pdf" target="_blank "> <img src="assets/Download Resume_2c2c2c_32.png " /></a>
               <p>Resume</p>
             </li>
             <li>
-              <a href="www.linkedin.com/in/nitashakochar"><img src="assets/LinkedIn_2c2c2c_32.png" /></a>
+              <a href="www.linkedin.com/in/nitashakochar"><img src="assets/LinkedIn_2c2c2c_32.png " /></a>
               <p> LinkedIn </p>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-2">
-        <img src="assets/dalipic.jpg" id="profileimage">
+      <div class="col-2 ">
+        <img src="assets/dalipic.jpg " id="profileimage ">
       </div>
     </div>
 
     <!--start of projects-->
 
-    <div class="flex-box-2" id="projects">
-      <div class="project-list">
-        <div class="view view-hover">
-          <img class="view-image" src="assets/ASD.png" />
-          <div class="mask">
-            <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College </h2>
+    <div class="flex-box flex-box-2" data-imageid="0" id="projects">
+      <div class="project-list ">
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/ASD.png " />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
             <p> Outlined feature specs and designed user-flow for an iOS application that aims to teach young males with Autism Spectrum Disorder how to practice a calming qigong massage.</p>
-            <a href="https://github.com/dali-lab/asd/wiki" target="_blank" class="info">Check it out</a>
+            <a href="https://github.com/dali-lab/asd/wiki " target="_blank " class="info ">Check it out</a>
           </div>
         </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/neuroviz.png" />
-          <div class="mask">
-            <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College </h2>
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/neuroviz.png " />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
             <p>Implemented designs for Deloitte Neuroscience Institute’s website using Javascript and HTML5/CSS.</p>
-            <a href="http://dni.dali.dartmouth.edu/" target="_blank" class="info">Check it out</a>
+            <a href="http://dni.dali.dartmouth.edu/ " target="_blank " class="info ">Check it out</a>
           </div>
         </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/FLOATNOTES.png" />
-          <div class="mask">
-            <h2 class="title"><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/FLOATNOTES.png " />
+          <div class="mask ">
+            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
             <p>Collaborative note-taking web app with real-time editing; built with React and Firebase.</p>
-            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" target="_blank" class="info">Check it out</a>
+            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/ " target="_blank " class="info ">Check it out</a>
           </div>
         </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/blog.png" />
-          <div class="mask">
-            <h2 class="title"><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/blog.png " />
+          <div class="mask ">
+            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
             <p>Tumblr blog-style web-app with authentication and CRUD API server; built with React, Redux, MongoDB, and Express. </p>
-            <a href="http://lab4-nitashakochar.surge.sh/" class="info">Check it out</a>
+            <a href="http://lab4-nitashakochar.surge.sh/ " class="info ">Check it out</a>
           </div>
         </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/libero/Libero.png" />
-          <div class="mask">
-            <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College</h2>
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/libero/Libero.png " />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College</h2>
             <p>Designed an app that encourages people to get fit by virtually working out with others in real-time. Used Sketch to create designs and prototypes. </p>
-            <button class="info" onclick="showLibero();">Check it out</button>
+            <button class="info navigate" data-imageid="3">Check it out</button>
           </div>
         </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/misc-projects.png" />
-          <div class="mask">
-            <h2 class="title"><span>Anywhere</span> <br />and everywhere</h2>
+        <div class="view view-hover ">
+          <img class="view-image " src="assets/misc-projects.png " />
+          <div class="mask ">
+            <h2 class="title "><span>Anywhere</span> <br />and everywhere</h2>
             <p> Featured here are mini-projects that I've completed while learning new skills. Programs include Principle Animation & Sketch. </p>
-            <button class="info" onclick="showMisc();">Check it out</button>
+            <button class="info navigate" data-imageid="4">Check it out</button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="flex-box-3 hidden" id="liberopage">
-      <img class="ex-img" src="assets/libero/1_libero-app.jpeg" />
-      <img class="ex-img" src="assets/libero/2_libero-workout.jpeg" />
-      <img class="ex-img" src="assets/libero/3_libero-leaderboard.jpeg" />
-      <img class="ex-img" src="assets/libero/4_libero-myactivities.jpeg" />
-      <img class="ex-img" src="assets/libero/5_libero-friends.jpeg" />
-      <img class="ex-img" src="assets/libero/6_libero-racing.png" />
-      <img class="ex-img" src="assets/libero/7_libero-racingmap.jpeg" />
-      <img class="ex-img" src="assets/libero/8_libero-achievement.jpeg" />
+    <div class="hidden flex-box flex-box-3" data-imageid="3" id="liberopage">
+      <img class="ex-img " src="assets/libero/1_libero-app.jpeg " />
+      <img class="ex-img " src="assets/libero/2_libero-workout.jpeg " />
+      <img class="ex-img " src="assets/libero/3_libero-leaderboard.jpeg " />
+      <img class="ex-img " src="assets/libero/4_libero-myactivities.jpeg " />
+      <img class="ex-img " src="assets/libero/5_libero-friends.jpeg " />
+      <img class="ex-img " src="assets/libero/6_libero-racing.png " />
+      <img class="ex-img " src="assets/libero/7_libero-racingmap.jpeg " />
+      <img class="ex-img " src="assets/libero/8_libero-achievement.jpeg " />
     </div>
 
-    <div class="flex-box-4 hidden" id="miscpage">
-      <img src="assets/animated_app_dribble.gif" />
+    <div class="hidden flex-box flex-box-4" data-imageid="4" id="miscpage">
+      <div class="gif">
+        <img src="assets/animated_app.gif" />
+      </div>
+
+      <div class="images">
+        <img class="animate-sketch" src="assets/Mobile2.png" />
+        <img class="animate-sketch" src="assets/Mobile3.png" />
+        <img class="animate-sketch" src="assets/Mobile1.png" />
+      </div>
     </div>
 
-    <div class="flex-box-5 hidden" id=gallery>
-      <div class="fotorama" data-height="500" data-width="600" data-nav="thumbs" id="gallery">
-        <img src="assets/CT1.jpg" />
-        <img src="assets/D1.JPG" />
-        <img src="assets/D2.jpg" />
-        <img src="assets/CT4.JPG" />
-        <img src="assets/CT2.JPG" />
-        <img src="assets/CT3.jpg" />
+    <div class="hidden flex-box flex-box-5" data-imageid="2" id=gallery>
+      <div class="fotorama " data-height="500" data-width="608.52" data-nav="thumbs">
+        <img src="assets/CT1.jpg " />
+        <img src="assets/D1.JPG " />
+        <img src="assets/D2.jpg " />
+        <img src="assets/CT4.JPG " />
+        <img src="assets/CT2.JPG " />
+        <img src="assets/CT3.jpg " />
       </div>
       <div class="description">
-        <h1>Featured Locations:</h1>
-        <ul>
-          <li> Dartmouth College, Hanover, New Hampshire</li>
-          <li>Cape Town, South Africa</li>
-        </ul>
+        <h1>Featured Locations: <br /> Hanover, New Hampshire & Cape Town, South Africa</h1>
       </div>
     </div>
 
@@ -155,9 +159,9 @@
     <ul>
       <li> &copy; 2017 Nitasha Kochar. &nbsp; All rights reserved. </li>
 
-      <li><a href="mailto:nitashakochar@gmail.com">nitashakochar@gmail.com</a></li>
+      <li><a href="mailto:nitashakochar@gmail.com ">nitashakochar@gmail.com</a></li>
 
-      <li><a href="https://www.instagram.com/datashkid/">Instagram</a></li>
+      <li><a href="https://www.instagram.com/datashkid/ ">Instagram</a></li>
     </ul>
   </footer>
 
