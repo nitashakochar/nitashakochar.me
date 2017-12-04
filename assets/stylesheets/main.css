@@ -42,6 +42,10 @@ header {
   display: none;
 }
 
+#info span {
+  font-weight: bold;
+}
+
 button {
   border: none;
   font-family: 'Lato', sans-serif;
@@ -140,10 +144,38 @@ p {
   width: 225px;
 }
 
+.kinekt-img {
+  height: 450px;
+  width: 225px;
+  margin: 20px;
+}
+
+.page-title {
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.flow {
+  width: 60%;
+  height: 60%;
+  margin: 10px;
+}
+
 .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.post-its {
+  height: 400px;
+  width: 400px;
 }
 
 .animate-sketch {
@@ -302,6 +334,58 @@ h4 {
   justify-content: center;
 }
 
+.kinekt-flex-section {
+  display: flex;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.label {
+  justify-content: center;
+  font-weight: bold;
+}
+
+.pic-text {
+  margin: 20px;
+}
+
+.col {
+  flex-direction: column;
+  align-items: center;
+}
+
+#research-idea {
+  width: 50%;
+}
+
+.role {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+
+#persona {
+  width: 45%;
+  height: 45%;
+  margin: 10px;
+}
+
+#journey {
+  width: 55%;
+  height: 55%;
+  margin: 10px;
+}
+
 .flex-box-1 {
   margin-top: 20px;
   width: 100%;
@@ -333,6 +417,14 @@ h4 {
 }
 
 .flex-box-5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-box-6 {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
@@ -423,19 +515,31 @@ footer li a:hover {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .flex-box-1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
   #about {
     display: none;
     justify-content: space-between;
   }
   p {
     margin: 0px;
+    font-size: 18px;
+  }
+  .col p {
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  #info {
+    text-align: left;
+  }
+  #next {
+    text-align: left;
+  }
+  .final {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .center {
+    justify-content: center;
   }
   .bio {
     display: flex;
