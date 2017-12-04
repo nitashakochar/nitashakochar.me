@@ -61,6 +61,14 @@ button:hover {
   color: rgb(79, 170, 179);
 }
 
+.selected {
+  color: rgb(79, 170, 179);
+}
+
+.unselected {
+  color: rgb(59, 59, 59);
+}
+
 nav {
   padding-top: 80px;
   border-bottom: 2px rgb(129, 182, 176) solid;
@@ -547,10 +555,13 @@ footer li a:hover {
   .linked-list {
     width: 100%;
   }
-  #profileimage {
+  .flex-box-1 {
+    flex-wrap: wrap;
+  }
+  .col-2 img {
     padding-bottom: 0px;
-    width: 400px;
     align-self: center;
+    width: 90%;
   }
   .logo {
     display: flex;

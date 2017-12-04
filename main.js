@@ -9,4 +9,12 @@ $(document).ready(function(){
        $(".flex-box[data-imageid="+imageid+"]").show().css('display', 'flex');
        console.log( $(".flex-box[data-imageid="+imageid+"]"))
    });
+
+});
+
+$(document).ready(function(){
+   $("nav li").click(function() {
+   $( this ).addClass( "selected" ).siblings(".selected").removeClass("selected");
+   $( this ).siblings().addClass("unselected").siblings(".selected").removeClass("unselected");
+   });
 });
