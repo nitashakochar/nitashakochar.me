@@ -22,13 +22,92 @@
       <nav>
         <h1 class="logo navigate" data-imageid="0">Nitasha <span>Kochar</span></h1>
         <ul>
-          <li class="selected"><button class="navigate" data-imageid="0">PROJECTS</button></li>
-          <li class="unselected"><button class="navigate" data-imageid="1">ABOUT</button></li>
-          <li class="unselected"><button class="navigate" data-imageid="2">GALLERY</button></li>
+          <li class="selected navigate" data-imageid="0">PROJECTS</li>
+          <li class="unselected navigate" data-imageid="1">ABOUT</li>
+          <li class="unselected navigate" data-imageid="2">GALLERY</li>
         </ul>
       </nav>
     </header>
 
+    <!--start of projects-->
+    <div class="flex-box flex-box-0" data-imageid="0" id="projects">
+      <div class="project-list ">
+        <!--Neuroviz-->
+        <div class="view view-hover">
+          <img class="view-image" src="assets/neuroviz.png" />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
+            <p>Implemented designs for Deloitte Neuroscience Institute’s website using Javascript and HTML5/CSS.</p>
+            <a href="http://dni.dali.dartmouth.edu/ " target="_blank " class="info ">Check it out</a>
+          </div>
+        </div>
+        <!--Blog-->
+        <div class="view view-hover">
+          <img class="view-image" src="assets/blog.png" />
+          <div class="mask ">
+            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
+            <p>Tumblr blog-style web-app with authentication and CRUD API server; built with React, Redux, MongoDB, and Express. </p>
+            <a href="http://lab4-nitashakochar.surge.sh/ " class="info ">Check it out</a>
+          </div>
+        </div>
+        <!--Float notes-->
+        <div class="view view-hover">
+          <img class="view-image" src="assets/FLOATNOTES.png" />
+          <div class="mask ">
+            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
+            <p>Collaborative note-taking web app with real-time editing; built with React and Firebase.</p>
+            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/ " target="_blank " class="info ">Check it out</a>
+          </div>
+        </div>
+        <!--ASD-->
+        <div class="view view-hover ">
+          <img class="view-image" src="assets/ASD/ASD.png" />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
+            <p> Outlined feature specs and designed user-flow for an iOS application that aims to teach young males with Autism Spectrum Disorder how to practice a calming qigong massage.</p>
+            <button class="info navigate" data-imageid="5">Check it out</button>
+          </div>
+        </div>
+        <!--DT-->
+        <div class="view view-hover">
+          <img class="view-image " src="assets/DT/design-think.png" />
+          <div class="mask ">
+            <h2 class="title "><span>ENGS12: Design Thinking</span> <br />Dartmouth College</h2>
+            <p> Featured here are some of the projects I worked on in a course called Design Thinking during my sophomore year of college. Throughout the term I practiced creative, uninhibited, and free-form ideation, iteration, and production. </p>
+            <button class="info navigate" data-imageid="7">Check it out</button>
+          </div>
+        </div>
+        <!--Libero-->
+        <div class="view view-hover">
+          <img class="view-image " src="assets/libero/Libero.png" />
+          <div class="mask ">
+            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College</h2>
+            <p>Designed an app that encourages people to get fit by virtually working out with others in real-time. Used Sketch to create designs and prototypes. </p>
+            <button class="info navigate" data-imageid="3">Check it out</button>
+          </div>
+        </div>
+        <!--Kinekt-->
+        <div class="view view-hover">
+          <img class="view-image " src="assets/kinekt/Kinekt.png" />
+          <div class="mask ">
+            <h2 class="title "><span>iXPERIENCE</span> <br />Cape Town, South Africa</h2>
+            <p>Designed an app that provides entry-level entrepreneurs with a support system by connecting them with successful experts in the area. </p>
+            <button class="info navigate" data-imageid="6">Check it out</button>
+          </div>
+        </div>
+        <!--Misc-->
+        <div class="view view-hover">
+          <img class="view-image " src="assets/misc/misc-projects.png" />
+          <div class="mask ">
+            <h2 class="title "><span>Anywhere</span> <br />and everywhere</h2>
+            <p> Featured here are mini-projects that I've completed while learning new skills. Programs include Principle Animation & Sketch. </p>
+            <button class="info navigate" data-imageid="4">Check it out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--start of about-->
     <div class="hidden flex-box flex-box-1" data-imageid="1">
       <div class="col-1 ">
         <h1>About me...</h1>
@@ -37,6 +116,7 @@
           <br /> <br /> If I’m not sleeping, I'm either listening to music, hanging out with friends, or stumbling in the woods.
           <br /> <br /> At Dartmouth, I'm a designer & developer at the Digital Arts, Leadership, and Innovation Lab, where I am constantly exposed to creativity and innovation—the two things that fuel me most.
           <br /> <br /> I have a natural desire to solve well-defined problems in an uninhibited form, and am passionate about transforming simple ideas that could benefit others into a reality.
+          <br /> <br /> Disclaimer: This website serves as my portfolio.
         </p>
         <div class="links ">
           <ul class="linked-list ">
@@ -59,71 +139,8 @@
         <img src="assets/dalipic.jpg " id="profileimage ">
       </div>
     </div>
-
-    <!--start of projects-->
-
-    <div class="flex-box flex-box-2" data-imageid="0" id="projects">
-      <div class="project-list ">
-        <div class="view view-hover ">
-          <img class="view-image " src="assets/ASD/ASD.png " />
-          <div class="mask ">
-            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
-            <p> Outlined feature specs and designed user-flow for an iOS application that aims to teach young males with Autism Spectrum Disorder how to practice a calming qigong massage.</p>
-            <a href="https://github.com/dali-lab/asd/wiki " target="_blank " class="info ">Check it out</a>
-          </div>
-        </div>
-        <div class="view view-hover">
-          <img class="view-image " src="assets/neuroviz.png" />
-          <div class="mask ">
-            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
-            <p>Implemented designs for Deloitte Neuroscience Institute’s website using Javascript and HTML5/CSS.</p>
-            <a href="http://dni.dali.dartmouth.edu/ " target="_blank " class="info ">Check it out</a>
-          </div>
-        </div>
-        <div class="view view-hover">
-          <img class="view-image " src="assets/FLOATNOTES.png " />
-          <div class="mask ">
-            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
-            <p>Collaborative note-taking web app with real-time editing; built with React and Firebase.</p>
-            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/ " target="_blank " class="info ">Check it out</a>
-          </div>
-        </div>
-        <div class="view view-hover">
-          <img class="view-image" src="assets/blog.png" />
-          <div class="mask ">
-            <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
-            <p>Tumblr blog-style web-app with authentication and CRUD API server; built with React, Redux, MongoDB, and Express. </p>
-            <a href="http://lab4-nitashakochar.surge.sh/ " class="info ">Check it out</a>
-          </div>
-        </div>
-        <div class="view view-hover">
-          <img class="view-image " src="assets/libero/Libero.png" />
-          <div class="mask ">
-            <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College</h2>
-            <p>Designed an app that encourages people to get fit by virtually working out with others in real-time. Used Sketch to create designs and prototypes. </p>
-            <button class="info navigate" data-imageid="3">Check it out</button>
-          </div>
-        </div>
-        <div class="view view-hover">
-          <img class="view-image " src="assets/kinekt/Kinekt.png" />
-          <div class="mask ">
-            <h2 class="title "><span>iXPERIENCE</span> <br />Cape Town, South Africa</h2>
-            <p>Designed an app that provides entry-level entrepreneurs with a support system by connecting them with successful experts in the area. </p>
-            <button class="info navigate" data-imageid="5">Check it out</button>
-          </div>
-        </div>
-        <div class="view view-hover ">
-          <img class="view-image " src="assets/misc/misc-projects.png" />
-          <div class="mask ">
-            <h2 class="title "><span>Anywhere</span> <br />and everywhere</h2>
-            <p> Featured here are mini-projects that I've completed while learning new skills. Programs include Principle Animation & Sketch. </p>
-            <button class="info navigate" data-imageid="4">Check it out</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="hidden flex-box flex-box-5" data-imageid="2" id=gallery>
+    <!--start of gallery-->
+    <div class="hidden flex-box flex-box-2" data-imageid="2" id=gallery>
       <div class="fotorama " data-height="500" data-width="608.52" data-nav="thumbs">
         <img src="assets/gallery/CT1.jpg " />
         <img src="assets/gallery/D1.JPG " />
@@ -136,37 +153,400 @@
         <h1>Featured Locations: <br /> Hanover, New Hampshire & Cape Town, South Africa</h1>
       </div>
     </div>
-
-    <div class="hidden flex-box flex-box-3" data-imageid="3" id="liberopage">
-      <img class="ex-img " src="assets/libero/1_libero-app.jpeg " />
-      <img class="ex-img " src="assets/libero/2_libero-workout.jpeg " />
-      <img class="ex-img " src="assets/libero/3_libero-leaderboard.jpeg " />
-      <img class="ex-img " src="assets/libero/4_libero-myactivities.jpeg " />
-      <img class="ex-img " src="assets/libero/5_libero-friends.jpeg " />
-      <img class="ex-img " src="assets/libero/6_libero-racing.png " />
-      <img class="ex-img " src="assets/libero/7_libero-racingmap.jpeg " />
-      <img class="ex-img " src="assets/libero/8_libero-achievement.jpeg " />
+    <!--start of design thinking-->
+    <div class="hidden flex-box flex-box-7 col" data-imageid="7" id="DTpage">
+      <button onclick="topFunction()" id="scroll-up" title="Go to top">Top</button>
+      <div class="DT-flex-section col">
+        <div class="page-title">Design Thinking</div>
+        <div class="role">UX/UI Design, User Research, & Prototyping</div>
+        <p style="text-align: left" id="info">
+          &emsp;&emsp;During my sophomore year of college, I took a course called Design Thinking at the Thayer School of Engineering, which acts as a foundation course on the cognitive strategies and methodologies behind the creative design practice. Each week,
+          I worked on a new project, either independently, or in a randomly-generated group of people, and each project served as an introduction to the design of products, services, interactive technology, environments, and experiences. Throughout the
+          course, my classmates and I discussed and implemented topics including design principles, human need-finding, heuristics, thinking by analogy, scenario building, visual thinking, and the studies of experienced thinkers. Below, you'll find a
+          few of my favorite projects from the class!
+        </p>
+        <ul id="row">
+          <li class="button-margin">
+            <a href="#RC-bg">Roller Coaster</a>
+          </li>
+          <li class="button-margin">
+            <a href="#DT-R1">Carrying Devices</a>
+          </li>
+          <li class="button-margin">
+            <a href="#DT-R2">Digital Dreams</a>
+          </li>
+          <li class="button-margin">
+            <a href="#DT-R3">Dartmouth Research</a>
+          </li>
+        </ul>
+      </div>
+      <div class="DT-flex-section col" id="RC-bg">
+        <h2>Roller Coaster Project</h2>
+        <div class="DT-flex-section between">
+          <div class="DT-flex-sction col DT-RC">
+            <h3>Assignment:</h3>
+            <p>
+              Design a new theme park ride using original concepts for a novel transportation experience.
+            </p>
+            <h3>Goal:</h3>
+            <p>
+              To maximize the originality, quality, and overall time (seconds) of your roller coaster prototype using creative functional elements as well as a compelling theme concept.
+            </p>
+            <h3>Materials:</h3>
+            <p>
+              Three sheets of foam-core, hot glue, tape, wooden dowel, 10 rubber bands, colored paper for design. A ping-pong ball served as the conceptual representation of the vehicle pod or rider.
+            </p>
+            <h3>Result:</h3>
+            <p>
+              After a solid 48-hours of building, and a massive all-nighter, my team came up with a time-travel themed roller coaster design.
+            </p>
+          </div>
+          <img id="RC" src="assets/DT/coaster.jpeg " />
+        </div>
+      </div>
+      <div class="DT-flex-section col DT-proj" id="DT-R1">
+        <h2>Design Research 1: Improving Carrying-Devices</h2>
+        <h3>Assignment:</h3>
+        <p>
+          Dartmouth students navigate multiple different environments and activities every day. They have to carry many things with them, but at times the current systems for carrying things can be bulky, awkward, inconvenient, and even unhealthy. Essentially,
+          we want to help Dartmouth students better manage the things they need to carry with them by creating better carrying devices. ​<br /><br />Upon receiving this assignment, my partner and I conducted interviews with extreme users such
+          as athletes who carry gym bags on top of their backpacks and hikers with large packs on their backs, to the regular majority of students who generally carry a single backpack around all day. Eventually, though, we realized that a carrying device
+          could refer to anything, really, ranging from a card holder on the back of your phone to a lunch box, laundry basket to trash bin. Ultimately, we settled on a problem that we saw many students deal with on a daily basis--tangled earphones.
+        </p>
+        <br />
+        <h3>Problem:</h3>
+        <p>
+          Dartmouth students need a way to store and retrieve earbud-headphones easily.
+        </p>
+        <br />
+        <h3>Establishing user-need:</h3>
+        <br />
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/uafSFmHDkjY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <br />
+        <h3>Background:</h3>
+        <p>
+          In 2001, Steve Jobs announced the world’s first ever iPod. Within the past 16 years, Apple has gained a monopoly over the personal tech industry. According to a study in 2012, 50 percent of all households in the United States are home to at least one
+          Apple product. Basically, over 55 million homes have at least one iPod, iPhone, iPad, or Mac. With each iteration of Apple products, focus is given to the main piece of technology: the phone or the laptop. Their companion components, such as
+          chargers and headphones, however, remain relatively the same. Despite improvements to Apple’s hardware and software, Apple had failed to fix a crucial pain-point for many of its billion users: the dreaded headphone tangle. <br /><br
+          />Physicists have actually done a study in which they tumbled a wire in a box hundreds of times and then used mathematical knot theory to analyze them. They identified 120 different types of knots and concluded that stiffer wires were less likely
+          to form such insane tangles. Interviews with Dartmouth students confirmed this theory. We realized that the issue of tangled wires was particularly a problem for college students who are always on-the-go and don’t have much time to spend untangling
+          wires.
+        </p>
+        <br />
+        <h3>Solution:</h3>
+        <img class="DT-bed" src="assets/DT/bed4buds.png" />
+        <p>
+          We decided to put a mini pouch on a backpack strap for quick and easy access. The pouch is detachable and can be used in a variety of ways. Inside this pouch is a spool mechanism that allows the user to roll their headphones in or out.
+        </p>
+        <img class="DT-bed" src="assets/DT/backpack.png" />
+        <img class="DT-bed" src="assets/DT/upclose.png" />
+        <br />
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/67w_4YT_Kbo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <br />
+        <div class="DT-flex-section col DT-proj">
+          <h3>User-feedback + User-DEMO:</h3>
+          <br />
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/PEAjdBHv7Ks" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+        <br />
+        <div class="DT-flex-section col DT-proj">
+          <h3>Next Steps:</h3>
+          <p>
+            If I were to continue with this project, I would work on making the pouch itself less bulky, implement an easier wrapping method, and attach a smoother zipper.
+          </p>
+        </div>
+      </div>
+      <div class="DT-flex-section col DT-proj" id="DT-R2">
+        <h2>Design Research 2: Digital Dreams</h2>
+        <h3 style="align-self:center">  How might we use computing and connectivity to improve human experiences?</h3>
+        <br />
+        <h3>Assignment: </h3>
+        <p>
+          To work on the "front-end" conceptual process of need-finding and envisioning a digital innovation to enable new and better experiences for its users. <br /><br />​ My partner and I first began by brainstorming 100+ human experiences we could
+          potentially innovate--mind-mapping through the night--asking ourselves, "Who is being left behind?" ​
+        </p>
+        <div class="DT-flex-section">
+          <div class="images">
+            <img class="brainstorm-img" src="assets/DT/brainstorm.png" />
+            <img class="brainstorm-img" src="assets/DT/brainstorm2.png" />
+            <img class="brainstorm-img" src="assets/DT/brainstorm3.png" />
+          </div>
+        </div>
+        <p>
+          After selecting and solidifying an opportunity, our next step was to begin the conceptual design process. After storyboarding a use-case, we "presented the future with our innovation in it" to the rest of the class.
+        </p>
+        <br /><br />
+        <h3>Proposed Solution:</h3>
+        <p>
+          Imagine that someone in your family has been diagnosed with a serious illness. The treatment and care will be long-term, and will undoubtedly bring many changes to your everyday life.  You are expected to be one of the primary caregivers for your family
+          member.  This means that on top of everything you already do, such as school or work, meal preparation, grocery shopping, and taking care of the rest of the family, you will have to attend doctor’s appointments and various consultations as well
+          as attend to the basic needs for the family member who is sick. <br /><br /> All of these things quickly become overwhelming, especially when you factor in the mental and emotional labor of the situation.  When you realize that you
+          need help…who do you call?<br /><br /> ​ When something like this happens, people in the community may want to help, but it can be awkward to know what to say or do.  This makes supporting caregivers an even trickier situation.<br /><br /> Initially,
+          my partner and I focused on ways to improve caregiving through computing and connectivity? When we considered the challenge of caregiving, we talked extensively about the issue of asking for help. There is a lot of pressure placed on the individual
+          to perform in Western society.  Asking for help can be seen as admitting that you failed to do it on your own.<br /><br /> So we moved to our next "How Might We” statement…How might we make asking for help easier for caregivers? There are a
+          few key goals that we identified as necessary to make asking for support easier for caregivers. The system needed to organize communities to help, and then synthesize this information in a way that was not overwhelming to the caregiver. Another
+          goal that we identified was the overall mental and emotional support of caregivers.  We believe our system does that through bringing together people that most want to help them. <br /><br />
+        </p>
+        <h3 style="align-self:center">
+          <small>This is where</small> Supporting Roles <small>comes in.</small>
+        </h3>
+        <br />
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/hqVsSEYs75A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <br />
+        <ul>
+          <li>
+            The calendar is a comprehensive overview of all the tasks. </li>
+          <li>
+            The notifications toolbar on the left pops up when people have committed to tasks that need approval by the caregiver.
+          </li>
+          <li>
+            Then we go to the tasks page, where the caregiver or another administrator on the site is able to input tasks for the volunteers.
+          </li>
+          <li>
+            Next is the planner.  While looking at the entire day’s schedule, you can also approve pending tasks.
+          </li>
+          <li>
+            This circles page shows the different groups connected with the family. Supporting Roles tracks the tasks of each volunteer.
+          </li>
+          <li>
+            The defining feature of Supporting Roles is its pattern recognition.  Supporting Roles tracks the tasks of volunteers and, based on this information, makes suggestions for future tasks.
+          </li>
+          <li>
+            Let’s say that Mrs. Smith always picks up the kids from school on Thursdays, or Ben drops off dinner every other week on Mondays. Supporting Roles would send them reminder emails of the upcoming tasks and make it easier to commit to the same tasks. This
+            helps maintain some normalcy in the family schedule during an otherwise hectic time.
+          </li>
+        </ul>
+        <br /><br />
+        <h3>Next Steps:</h3> ​
+        <p>
+          Looking forward, we envision iCal integration for easier task-management as well as specialization for different cultural understandings.  Asking for help may not have the same implications or challenges in one culture compared to another. We can also see
+          Supporting Roles take on different forms depending on the situation.  For example, helping a family who recently welcomed a child into the world or a family undergoing a recent loss.
+          <br /><br /> Both my partner and I have had similar experiences watching one of our parents battle with disease, which is what prompted the beginning stages of Supporting Roles. As we continued to build the site, we realized that some websites,
+          like CaringBridge and Lotsa Helping Hands, were accomplishing a lot of what we thought was important to help caregivers.  But even though these sites organized community members, they still didn’t solve our main how-might-we:
+        </p>
+        <br /><br />
+        <h3 style="align-self:center">How Might We<small> make asking for help easier for caregivers?</small></h3> ​
+        <p>
+          We wanted to automate asking for help to a certain extent, because having to constantly input tasks means feeling like you’re constantly asking people for help. This is where our 'pattern recognition’ system came in.  With the automated suggestions, caregivers
+          can spend less time inputting tasks and more time doing the things that matter, like spending time with their loved ones and taking time to recharge.
+        </p>
+        <br /><br />
+        <h3 style="align-self:center"><i>Technology takes care of the details so that you don’t have to.</i></h3>
+      </div>
+      <div class="DT-flex-section col DT-proj" id="DT-R3">
+        <h2>Design Research 3: Dartmouth Research</h2>
+        <h3>Assignment</h3>
+        <p>
+          For my final group project, our challenge was to explore opportunities to improve the experiences of first-generation students at Dartmouth College.
+        </p>
+        <h3>Process</h3>
+        <p>
+          From the 40+ interviews that we’ve conducted over the past two weeks, we can confirm that first generation college students have a lot to say about the topic.
+        </p>
+        <p>
+          <strong>We heard...</strong>
+        </p>
+        <ul>
+          <li>
+            One story about a student who had to work multiple jobs on campus in order to support her family back at home when her father was unemployed.
+          </li>
+          <li>
+            One story about a father telling his daughter to be a doctor, lawyer, or engineer because those were “practical” paths and would ensure financial security.
+          </li>
+          <li>
+            And one story about a student who went on Tinder dates to guarantee food for herself during breaks because the dining halls were closed.
+          </li>
+        </ul>
+        <br />
+        <p>
+          <bold>From these interviews, we developed a hierarchy of needs.</bold>
+        </p>
+        <br />
+        <img id="DT-needs" src="assets/DT/hierarchy_needs.png" />
+        <br />
+        <p>
+          We heard stories about being too intimidated to going into office hours, strained relationships with parents, feeling lost in a sea of Canada Goose Jackets, and not having the same networks and opportunities as legacy students.
+        </p>
+        <br />
+        <h3 style="text-align:center"><small>But besides these stories of struggle, we also heard stories about accomplishments and hope that should be celebrated.</small></h3>
+        <br />
+        <p>
+          There are bright spots in the first generation community on campus that need to be recognized. These are the bright spots that we need to highlight so that other first generation students know that they have the potential to succeed in whatever field
+          they choose. So how can we give them that feeling?
+        </p>
+        <br />
+        <h3 style="align-self:center;"><bold>We propose...</bold></h3>
+        <br />
+        <img id="DT-TB" src="assets/DT/trailblazer.png" />
+        <br />
+        <h3 style="text-align:center;">
+          Trailblazer <small>is an annual multilingual publication that highlights the stories and experiences of first generation students, parents, faculty and alumni of Dartmouth.</small>
+        </h3>
+        <br />
+        <p>
+          Through Trailblazer, students, faculty, and families can read about the dark spots, like the story about the student who had to work multiple jobs, but also the bright spots: the student who got his research trip fully funded, the student who continued
+          to pursue a computer science major despite her self-doubts, and the student who maintained a 4.0 while working three jobs.
+        </p>
+        <br />
+        <p>
+          We want to celebrate the grit and resilience of first generation students and connect them with people who have shared similar stories.
+        </p>
+        <br />
+        <h3 style="align-self:center;">How does it work?</h3>
+        <br />
+        <img id="DT-TB" src="assets/DT/trailblazer-info.png" />
+        <br />
+        <p>
+          First-gen students, alumni, faculty, and parents of those first-gen students share their stories with the team at Trailblazer, who work with FYSEP and OPAL. They compile the most compelling stories, and distribute them to all students, parents, faculty,
+          and alumni of Dartmouth College at the beginning of each school year.
+        </p>
+        <br />
+        <h3 style="align-self:center;">What will be the impact?</h3>
+        <br />
+        <p style="align-self:center;">
+          Through sharing these stories, Trailblazer strives to create a community of empathy.
+        </p>
+        <br />
+        <p style="align-self:center;">
+          We decided to use stories because stories impact people on an emotional level that is necessary for meaningful change in attitudes and behaviors. We’re striving to increase awareness within the entire Dartmouth community by making known those stories
+          that are too often kept silent. <br /><br /> Currently, students feel like parents just don’t understand their experiences at Dartmouth. But with Trailblazer, parents can read stories, in their first languages, about students and alumni
+          who have overcome challenges and achieved success, as well as stories about life at Dartmouth, taking the burden off their children to try to explain the complex bubble of Dartmouth. Parents might even begin to feel comfortable enough to initiate
+          college related conversations, too. With Trailblazer, parents can:
+        </p>
+        <br />
+        <ul style="align-self:left;">
+          <li>
+            Understand the importance of a liberal arts education
+          </li>
+          <li>
+            See how majors lead to careers
+          </li>
+          <li>
+            Learn what college life is like
+          </li>
+        </ul>
+        <br />
+        <p>
+          Some students feel like professors are intimidating. But Trailblazer will help professors learn more about students’ backgrounds and experiences to increase their awareness. Professors can empathize with students’ experiences they may not have known about
+          before and feel encouraged to reach out. <br /><br /> ​ Alumni can serve as powerful role models. Trailblazer will engage Alumni who have experiences, tools, and resources that they can share with current students. Also, their stories
+          can inspire first generation students. Trailblazer can connect the brainpower Dartmouth cultivates and truly make an impact.<br /><br /> ​ Lastly, peers can be exclusive. Reading Trailblazer increases sensitivity to other’ backgrounds in order
+          to build a more understanding community.<br /><br /> ​ Throughout their experiences at Dartmouth, all students learn and grow. We do not want the stories of first generation students to be forgotten when they graduate. Through Trailblazer, we
+          can empower writers to celebrate their experiences and identities, instill empathy in non-first generation professors and students, and reassure parents that their children can be successful in following their passions. Most importantly, Trailblazer
+          can inspire first generation students by celebrating their grit and resilience, and by increasing their confidence in their own identities.<br /><br />
+        </p>
+        <br />
+        <h3 style="text-align:center;">We hope that through highlighting the diverse stories of Dartmouth’s trailblazers, we can create a community of empathy and instill feelings of pride and empowerment.</h3>
+        <br />
+      </div>
+      <div class="DT-flex-section col DT-refl">
+        <h3>Reflection</h3>
+        <p>
+          For ten weeks, I studied topics ranging from the art of brainstorming to user-research, acquired the skills to present thoughtful innovation and digital dreams, and have even tried my hand at sketching. At the very start of the term, I was motivated by
+          the ingenuity of my peers in the DeBono squares project, and was immediately overwhelmed by the sheer size of the roller coaster project. Learning how to work with people who have different work ethics from me was challenging, but equally rewarding.
+          The last three projects consisted of design research, and each of them progressively became more abstract. Conducting ethnographic research, I learned, is not an easy task, but I am glad that it was a major element towards the end of the course.
+          From these projects, I have learned to incorporate aspects of design-thinking into my daily life here at Dartmouth. <br /><br /> ​ One of the main aspects of this course that I looked forward to and appreciated was group work. Each
+          brainstorming session made me feel as though I was part of a think-tank—ready to take on any task. I experienced flow whenever I built upon someone else’s ideas, or vice versa. I’ve always known that I learn best from my peers, and this class
+          allowed for that to happen organically. I am thankful for the various friendships I have made and the opportunity to gain insight from people I never thought I would familiarize myself with. Regardless of where I end up in the future, I know
+          that this course has provided me with the skills needed to think critically, innovate readily, visualize widely, prototype repeatedly, and design effectively—and I could not have asked for more.<br /><br />
+        </p>
+      </div>
     </div>
-
+    <!--start of libero-->
+    <div class="hidden flex-box flex-box-3" data-imageid="3" id="liberopage">
+      <div class="libero-flex-section col">
+        <div class="page-title">Libero</div>
+        <div class="role">UX/UI Design</div>
+        <p style="text-align: left" id="info">
+          &emsp;&emsp;At Dartmouth I work at the Digital Arts, Leadership, and Innovation Lab on campus. My first project there was to design an iOS app called Libero. Our client, another Dartmouth student, came to the lab with the idea for an app that would encourage people
+          to get fit by virtually working-out with others (anywhere in the world) in real-time. It can be really difficult for those who are not motivated enough by their family/friends to exercise to find some other source of motivation. Furthermore, gyms
+          and Personal Training costs can be high. By having an app that could connect you with someone at your fitness-level, you now have that outside source of encouragement and can engage in some healthy competition, either by yourself or with others.
+          Research has shown that competition tends to be an influential motivator.<br /> &emsp;&emsp; At DALI we have weekly meetings with our project-groups, and bi-weekly meetings with our clients. Each week we are responsible for completing
+          a set amount of tasks that were assigned during the previous week. At client meetings, we present our work and welcome any form of feedback, or constructive criticism. This pattern remains until the end of the term, when we showcase our final
+          prototypes to the outside community.
+        </p>
+      </div>
+      <div class="libero-flex-section col">
+        <div class="final">
+          <h2>Final Prototype</h2>
+        </div>
+        <div class="images">
+          <img class="ex-img " src="assets/libero/1_libero-app.jpeg " />
+          <img class="ex-img " src="assets/libero/2_libero-workout.jpeg " />
+          <img class="ex-img " src="assets/libero/3_libero-leaderboard.jpeg " />
+          <img class="ex-img " src="assets/libero/4_libero-myactivities.jpeg " />
+          <img class="ex-img " src="assets/libero/5_libero-friends.jpeg " />
+          <img class="ex-img " src="assets/libero/6_libero-racing.png " />
+          <img class="ex-img " src="assets/libero/7_libero-racingmap.jpeg " />
+          <img class="ex-img " src="assets/libero/8_libero-achievement.jpeg " />
+        </div>
+      </div>
+    </div>
+    <!--start of misc-->
     <div class="hidden flex-box flex-box-4" data-imageid="4" id="miscpage">
       <div class="gif">
         <img src="assets/misc/animated_app.gif" />
       </div>
-
       <div class="images">
         <img class="animate-sketch" src="assets/misc/Mobile2.png" />
         <img class="animate-sketch" src="assets/misc/Mobile3.png" />
         <img class="animate-sketch" src="assets/misc/Mobile1.png" />
       </div>
     </div>
-
-    <div class="hidden flex-box flex-box-6" data-imageid="5" id="kinekt">
+    <!--start of ASD-->
+    <div class="hidden flex-box flex-box-5" data-imageid="5" id=ASD>
+      <div class="ASD-flex-section col">
+        <div class="page-title">Self-Training for ASD</div>
+        <div class="role">UX/UI Design</div>
+        <a href="https://github.com/dali-lab/asd/wiki" target="_blank " class="info ">GitHub Repo/Wiki</a>
+        <p style="text-align: left" id="info">
+          &emsp;&emsp;My second project at the Digital Arts, Leadership, & Innovation Lab at Dartmouth College, Self-Training for ASD is a platform on which children and teens with ASD can learn the art of qigong, a self-administered massage-flow that helps users
+          gain a sense of self and security. These flows help alleviate difficulty with social interactions and hypersensitivity to stimuli in surrounding environments. Currently, instructional videos and text exist on the internet and in books, though
+          these tutorials are both scattered and outdated -- our team has worked to create a single platform that provides instructions for self-massage clearly and effectively. The iOS iPad app along with its administrator views are fully ready to be
+          tested in the hands of users in teaching them self qigong.
+        </p>
+      </div>
+      <div class="ASD-flex-section col">
+        <h2>Tutorial</h2>
+        <p>
+          Drawing from apps like Headspace, I designed a playful tutorial for the user that appears upon the first launch of the app, or whenever the "?" button is tapped.
+        </p>
+        <div class="images">
+          <img class="ASD-tut-img" src="assets/ASD/Tutorial 1.png" />
+          <img class="ASD-tut-img" src="assets/ASD/Tutorial 2.png" />
+          <img class="ASD-tut-img" src="assets/ASD/Tutorial 3.png" />
+          <img class="ASD-tut-img" src="assets/ASD/Tutorial 4.png" />
+          <img class="ASD-tut-img" src="assets/ASD/Tutorial 5.png" />
+        </div>
+      </div>
+      <div class="ASD-flex-section col">
+        <div class="final">
+          <h2>Final Prototype</h2>
+        </div>
+        <div class="images">
+          <img class="ASD-img" src="assets/ASD/1_Hello.png" />
+          <img class="ASD-img" src="assets/ASD/2_Tap_me.png" />
+          <img class="ASD-img" src="assets/ASD/3_Tickle_me.png" />
+          <img class="ASD-img" src="assets/ASD/4_Name.png" />
+          <img class="ASD-img" src="assets/ASD/5_Home.png" />
+          <img class="ASD-img" src="assets/ASD/6_Selection.png" />
+          <img class="ASD-img" src="assets/ASD/7_Another_Selection.png" />
+          <img class="ASD-img" src="assets/ASD/8_no_selection.png" />
+          <img class="ASD-img" src="assets/ASD/9_Replay.png" />
+        </div>
+      </div>
+      <div class="ASD-flex-section col">
+        <h2>Next Steps</h2>
+        <p id="next">
+          We didn't have a chance to user-test the hi-fi app before the end of the term, however our clients are in the process of user-testing. Once that is complete, we hope to perfect the designs, producing a more logical flow.
+        </p>
+      </div>
+    </div>
+    <!--start of Kinekt-->
+    <div class="hidden flex-box flex-box-6" data-imageid="6" id="kinekt">
       <div class="kinekt-flex-section col">
         <div class="page-title">Kinekt</div>
-        <div class="role">
-          UX/UI Design & User Research
-        </div>
-        <p id="info">
+        <div class="role">UX/UI Design & User Research</div>
+        <p style="text-align: left" id="info">
           &emsp;&emsp;In the summer of 2016, I spent two months in Cape Town, South Africa learning the intricacies of User Experience Design. For my capstone project,  three other students and I were given the topic of Small Businesses. Essentially, we were tasked
           with designing an iOS application that would improve the lives of small-business owners. <br /> &emsp;&emsp;Not well versed in the pain-points of small-business owners, we conducted interviews during the research phase of the class.
           After gathering data from shop-owners around Cape Town, we developed personas, journey maps, and user stories. Next was the ideation phase. My group brainstormed possible solutions to a problem we identified from our research—small business-owners
@@ -176,7 +556,6 @@
           in the iXperience program, marketing Kinekt as an app designed to connect young entrepreneurs in a social and dynamic way.
         </p>
       </div>
-
       <div class="kinekt-flex-section around">
         <div class="kinekt-flex-section col" id="research-idea">
           <h2>Research/Ideation</h2>
@@ -187,7 +566,6 @@
         </div>
         <img class="post-its" src="assets/kinekt/post-its.png" />
       </div>
-
       <div class="kinekt-flex-section col">
         <h2>Personas & Journey Maps</h2>
         <p class="center">We created several personas and journey maps to help us better understand our user base.</p>
@@ -196,8 +574,7 @@
           <img id="journey" src="assets/kinekt/journeymap.png" />
         </div>
       </div>
-
-      <div class="kinekt-flex-section col">
+      <div class="kinekt-flex-section col lo-fi">
         <h2>Lo-fi Wireframes</h2>
         <p class="center">We narrowed down our app to include four features that we deemed the most important: Profile, Newsfeed, Community, and Chat.</p>
         <div class="kinekt-flex-section">
@@ -211,7 +588,6 @@
           </div>
         </div>
       </div>
-
       <div class="kinekt-flex-section col">
         <h2>Screen Iterations</h2>
         <div class="images">
@@ -239,17 +615,13 @@
           and the hi-fi prototype.
         </p>
       </div>
-
     </div>
   </div>
-
 
   <footer>
     <ul>
       <li> &copy; 2017 Nitasha Kochar. &nbsp; All rights reserved. </li>
-
       <li><a href="mailto:nitashakochar@gmail.com ">nitashakochar@gmail.com</a></li>
-
       <li><a href="https://www.instagram.com/datashkid/ ">Instagram</a></li>
     </ul>
   </footer>
