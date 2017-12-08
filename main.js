@@ -1,5 +1,6 @@
 //https://stackoverflow.com/questions/26027787/simplify-this-javascript-for-show-one-hide-rest
 
+
 $(document).ready(function(){
    $('html').animate({scrollTop: 0}, 200);
    console.log("top");
@@ -13,7 +14,6 @@ $(document).ready(function(){
        $('html').animate({scrollTop: 0}, 200);
        console.log("top");
    });
-
 });
 
 $(document).ready(function(){
