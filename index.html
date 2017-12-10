@@ -18,10 +18,11 @@
 
 <body>
   <div class="flex-container">
+    <img src="assets/sspic-small.jpg" style="display:none;">
     <nav>
       <h1 class="logo navigate" data-imageid="0">Nitasha <span>Kochar</span></h1>
       <ul>
-        <li class="selected navigate" data-imageid="0">PROJECTS</li>
+        <li class="unselected navigate" data-imageid="0">PROJECTS</li>
         <li class="unselected navigate" data-imageid="1">ABOUT</li>
         <li class="unselected navigate" data-imageid="2">GALLERY</li>
       </ul>
@@ -34,16 +35,19 @@
     <!--start of projects-->
     <div class="flex-box flex-box-0 col" data-imageid="0">
       <header>
-        <h4> Welcome to My Portfolio</h4>
+        <h4> Hi, I'm Nitasha</h4>
+        <h2>User Experience, Product Design, & Web Development</h2>
+        <a class="down-button" href="#project-list">Projects&#8595;</a>
+
       </header>
-      <div class="project-list ">
+      <div class="project-list" id="project-list">
         <!--Neuroviz-->
         <div class="view view-hover">
           <img class="view-image" src="assets/neuroviz.png" />
           <div class="mask ">
             <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
             <p>Implemented designs for Deloitte Neuroscience Institute’s website using Javascript and HTML5/CSS.</p>
-            <a href="http://dni.dali.dartmouth.edu/ " target="_blank " class="info ">Check it out</a>
+            <a href="http://dni.dali.dartmouth.edu/ " target="_blank" class="info">Check it out</a>
           </div>
         </div>
         <!--Blog-->
@@ -52,7 +56,7 @@
           <div class="mask ">
             <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
             <p>Tumblr blog-style web-app with authentication and CRUD API server; built with React, Redux, MongoDB, and Express. </p>
-            <a href="http://lab4-nitashakochar.surge.sh/ " class="info ">Check it out</a>
+            <a href="http://lab4-nitashakochar.surge.sh/" target="_blank" class="info">Check it out</a>
           </div>
         </div>
         <!--Float notes-->
@@ -61,7 +65,7 @@
           <div class="mask ">
             <h2 class="title "><span>Full-Stack Web Development</span> <br />Dartmouth College</h2>
             <p>Collaborative note-taking web app with real-time editing; built with React and Firebase.</p>
-            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/ " target="_blank " class="info ">Check it out</a>
+            <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" target="_blank " class="info ">Check it out</a>
           </div>
         </div>
         <!--ASD-->
@@ -146,9 +150,6 @@
     </div>
     <!--start of gallery-->
     <div class="hidden flex-box flex-box-2" data-imageid="2" id=gallery>
-      <button class="navigate" data-imageid="0" id="back" title="Projects"> < Back to Projects</button>
-
-
       <div class="masonry">
         <div class="item"> <img src="assets/gallery/CT1.jpg " />
           <h3>Wally's Cave, Cape Town</h3></div>
@@ -507,7 +508,7 @@
       <button class="navigate" data-imageid="0" id="back" title="Projects"> < Back to Projects</button>
       <div class="ASD-flex-section col">
         <div class="page-title">Self-Training for ASD</div>
-        <div class="role">UX/UI Design</div>
+        <div class="role">UX/UI & Product Design</div>
         <a href="https://github.com/dali-lab/asd/wiki" target="_blank " class="info ">GitHub Repo/Wiki</a>
         <p style="text-align: left" id="info">
           &emsp;&emsp;My second project at the Digital Arts, Leadership, & Innovation Lab at Dartmouth College, Self-Training for ASD is a platform on which children and teens with ASD can learn the art of qigong, a self-administered massage-flow that helps users
@@ -555,7 +556,7 @@
       <button class="navigate" data-imageid="0" id="back" title="Projects"> < Back to Projects</button>
       <div class="kinekt-flex-section col">
         <div class="page-title">Kinekt</div>
-        <div class="role">UX/UI Design & User Research</div>
+        <div class="role">UX/UI/Product Design & User Research</div>
         <p style="text-align: left" id="info">
           &emsp;&emsp;In the summer of 2016, I spent two months in Cape Town, South Africa learning the intricacies of User Experience Design. For my capstone project,  three other students and I were given the topic of Small Businesses. Essentially, we were tasked
           with designing an iOS application that would improve the lives of small-business owners. <br /> &emsp;&emsp;Not well versed in the pain-points of small-business owners, we conducted interviews during the research phase of the class.

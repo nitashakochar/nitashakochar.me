@@ -16,12 +16,12 @@ $(document).ready(function(){
    });
 });
 
-$(document).ready(function(){
-   $("nav li").click(function() {
-   $( this ).addClass( "selected" ).siblings(".selected").removeClass("selected");
-   $( this ).siblings().addClass("unselected").siblings(".selected").removeClass("unselected");
-   });
-});
+// $(document).ready(function(){
+//    $("nav li").click(function() {
+//    $( this ).addClass( "selected" ).siblings(".selected").removeClass("selected");
+//    $( this ).siblings().addClass("unselected").siblings(".selected").removeClass("unselected");
+//    });
+// });
 
 
 

@@ -1,12 +1,28 @@
+.links, header, nav {
+  width: 100%
+}
+
+.down-button, .flex-box-7 a, .view a.info, nav li {
+  text-decoration: none
+}
+
+.flex-box-7 ul, .linked-list li, footer ul, nav ul {
+  list-style-type: none
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  top: 0
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
   height: 100%;
-  border-bottom: 1px rgb(129, 182, 176) solid;
-  border-top: 3px rgb(129, 182, 176) solid;
-  padding-bottom: 2.5%;
+  border-bottom: 1px #81b6b0 solid;
+  border-top: 3px #81b6b0 solid;
+  padding-bottom: 2.5%
 }
 
 header {
@@ -15,351 +31,338 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-  width: 100%;
   height: 100vh;
-  background-image: url("../sspic.png");
+  background-image: url(../sspic-small.jpg);
+  background-color: black;
   background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 50px
 }
 
 h4 {
   font-size: 60px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  margin: auto;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  margin: 200px 0 0
+}
+
+.logo, button, nav li {
+  font-family: Lato, sans-serif;
+  cursor: pointer
 }
 
 .logo {
-  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: lighter;
-  margin: 0px 0px 0px 25px;
-  cursor: pointer;
+  margin: 0 0 0 25px
 }
 
 .logo span {
-  font-weight: 300;
+  font-weight: 300
 }
 
 .hidden {
-  display: none;
+  display: none
+}
+
+.bio, .images, .linked-list, nav, nav ul {
+  display: flex
 }
 
 #info span {
-  font-weight: bold;
+  font-weight: 700
 }
 
 button {
   border: none;
-  font-family: 'Lato', sans-serif;
   font-size: 13px;
   style: none;
-  outline: none;
-  cursor: pointer;
-  background-color: white;
-  color: rgb(59, 59, 59);
+  outline: 0;
+  background-color: #fff;
+  color: #3b3b3b
 }
 
 #back {
   align-self: left;
   font-size: 16px;
-  color: purple;
+  color: purple
 }
 
-button:hover {
-  color: rgb(79, 170, 179);
+.selected, button:hover {
+  color: #4faab3
 }
 
-.selected {
-  color: rgb(79, 170, 179);
-}
-
-.unselected {
-  color: rgb(59, 59, 59);
+.unselected, nav li {
+  color: #3b3b3b
 }
 
 nav {
-  padding-top: 80px;
-  border-bottom: 2px rgb(129, 182, 176) solid;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  padding-top: 50px;
+  border-bottom: 2px #81b6b0 solid;
+  justify-content: space-between
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
+  margin: 0 25px 0 0;
   padding: 0;
   overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 25px;
+  justify-content: flex-end
 }
 
 nav li {
   margin: 10px;
-  color: rgb(59, 59, 59);
   text-align: center;
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  cursor: pointer;
-  font-size: 13px;
+  font-size: 13px
 }
 
 nav li:hover {
-  color: rgb(79, 170, 179);
+  color: #4faab3
+}
+
+.linked-list a, p {
+  color: #3b3b3b
 }
 
 p {
-  color: rgb(59, 59, 59);
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 10px 10px 20px 10px;
+  margin: 10px 10px 20px
+}
+
+.linked-list li, .page-title, h2 {
+  font-family: Lato, sans-serif
 }
 
 .bio {
-  display: flex;
-  border-bottom: 1px rgb(129, 182, 176) solid;
-  padding-bottom: 25px;
-}
-
-.links {
-  width: 100%;
+  border-bottom: 1px #81b6b0 solid;
+  padding-bottom: 25px
 }
 
 .linked-list {
-  padding: 0px;
+  padding: 0;
   width: 95%;
-  display: flex;
-  justify-content: center;
+  justify-content: center
 }
 
 .linked-list li {
-  list-style-type: none;
-  font-family: 'Lato', sans-serif;
   font-size: 15px;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.linked-list a {
-  color: rgb(59, 59, 59);
+  align-items: center
 }
 
 .linked-list a:hover {
-  color: rgb(79, 170, 179);
+  color: #4faab3
+}
+
+.page-title, .view h2 {
+  color: #fff;
+  text-align: center
 }
 
 #profileimage {
   margin-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 50px
 }
 
 .view-image {
   width: 300px;
-  height: 200px;
+  height: 200px
 }
 
-.ex-img {
+.ex-img, .kinekt-img {
   height: 450px;
-  width: 225px;
+  width: 225px
 }
 
 .kinekt-img {
-  height: 450px;
-  width: 225px;
-  margin: 20px;
+  margin: 20px
 }
 
 .ASD-tut-img {
   width: 450px;
   height: 337.5px;
-  margin: 15px;
+  margin: 15px
 }
 
 .ASD-img {
   width: 400px;
   height: 272.27px;
-  margin: 15px;
+  margin: 15px
+}
+
+.flow, .view {
+  margin: 10px
 }
 
 .page-title {
   font-size: 45px;
-  font-family: 'Lato', sans-serif;
-  background-color: black;
-  color: white;
-  text-align: center;
+  background-color: #000
 }
 
 h2 {
   font-size: 30px;
-  font-family: 'Lato', sans-serif;
   text-align: center;
-  background-color: rgb(239, 245, 138)
+  background-color: #eff58a
+}
+
+.view a.info, .view h2 {
+  background: #3b3b3b;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase
 }
 
 h3 {
   font-size: 24px;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif
 }
 
 .flow {
   width: 60%;
-  height: 60%;
-  margin: 10px;
+  height: 60%
 }
 
 .images {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center
 }
 
 .post-its {
   height: 400px;
-  width: 400px;
+  width: 400px
 }
 
 .animate-sketch {
   margin: 10px;
   height: 533px;
+  width: 300px
+}
+
+.view, .view .content, .view .mask {
   width: 300px;
+  height: 200px;
+  overflow: hidden
 }
 
 .view {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
   float: left;
-  border: 2px solid white;
-  ;
-  overflow: hidden;
+  border: 2px solid #fff;
   position: relative;
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
-  cursor: default;
-  background: #fff url(../images/bgimg.jpg) no-repeat center center
+  cursor: default
 }
 
-.view .mask, .view .content {
-  width: 300px;
-  height: 200px;
+.view .content, .view .mask {
   position: absolute;
-  overflow: hidden;
   top: 0;
   left: 0
 }
 
-.view img {
-  display: block;
+.view h2, .view img, .view p {
   position: relative
 }
 
+.view img {
+  display: block
+}
+
 .view h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-family: 'Lato', sans-serif;
   font-size: 14px;
-  padding: 10px 5px 5px 5px;
-  background: rgb(59, 59, 59);
-  margin: 0 0 0 0;
-  font-weight: 400;
+  padding: 10px 5px 5px;
+  margin: 0;
+  font-weight: 400
 }
 
 .title span {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 17px
 }
 
 .view p {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 12px;
-  position: relative;
-  color: rgb(59, 59, 59);
+  color: #3b3b3b;
   text-align: center
 }
 
 .view a.info {
   display: inline-block;
-  text-decoration: none;
   padding: 1px 14px;
-  background: rgb(59, 59, 59);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: 0 0 1px rgb(59, 59, 59);
-  font-family: 'Lato', sans-serif;
+  color: #fff;
+  box-shadow: 0 0 1px #3b3b3b
 }
 
 .view a.info:hover {
-  box-shadow: 0 0 5px rgb(59, 59, 59)
+  box-shadow: 0 0 5px #3b3b3b
 }
 
 .view-hover img {
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out
 }
 
 .view-hover .mask {
-  background-color: rgb(131, 191, 186);
+  background-color: #83bfba;
   transform: translateX(-300px);
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out
 }
 
 .view-hover h2 {
-  background: rgba(255, 255, 255, 0.5);
-  color: rgb(59, 59, 59);
-  box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+  background: rgba(255, 255, 255, .5);
+  color: #3b3b3b;
+  box-shadow: 0 1px 3px rgba(159, 141, 140, .5)
 }
 
 .view-hover p {
   opacity: 0;
   color: #333;
-  transition: all 0.2s linear;
+  transition: all .2s linear
+}
+
+.description h1, h1 {
+  font-family: Lato, sans-serif;
+  color: #3b3b3b;
+  font-size: 20px
 }
 
 .view-hover:hover .mask {
-  transform: translateX(0px);
+  transform: translateX(0)
 }
 
 .view-hover:hover img {
   transform: translateX(300px);
-  transition-delay: 0.1s;
+  transition-delay: .1s
 }
 
 .view-hover:hover p {
   opacity: 1;
-  transition-delay: 0.4s;
+  transition-delay: .4s
 }
 
 h1 {
-  align-self: flex-start;
-  font-family: 'Lato', sans-serif;
-  color: rgb(59, 59, 59);
-  font-size: 20px;
+  align-self: flex-start
 }
 
 .description {
   display: flex;
   width: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center
 }
 
 .description h1 {
   display: flex;
   align-self: center;
-  font-family: 'Lato', sans-serif;
-  color: rgb(59, 59, 59);
-  font-size: 20px;
-  margin: 10px 0px 0px 0px;
-  text-align: center;
+  margin: 10px 0 0;
+  text-align: center
+}
+
+#DT-R2 h3, #DT-R2 li, #DT-R2 p, #scroll-up, .DT-RC h3, .DT-RC p, .down-button, .flex-box-7 a {
+  color: #fff
 }
 
 #about {
   display: none;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .project-list {
@@ -367,166 +370,129 @@ h1 {
   width: 100%;
   flex-wrap: wrap;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: center
 }
 
 .flex-box-2 img {
   max-width: 100%;
   height: auto;
-  display: block;
+  display: block
 }
 
 .masonry {
-  /* Masonry container */
   column-gap: 1.5em;
-  margin: 1.5em 0px 1.5em 0px;
-  padding: 0;
+  margin: 1.5em 0;
+  padding: 0
 }
 
 .item {
-  /* Masonry bricks or child elements */
   background-color: #eee;
   display: inline-block;
   margin: 0 0 1em;
-  width: 100%;
+  width: 100%
 }
 
 .item h3 {
-  text-align: center;
+  text-align: center
 }
 
-.kinekt-flex-section {
+.ASD-flex-section, .kinekt-flex-section, .libero-flex-section {
   display: flex;
   width: auto;
   margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.libero-flex-section {
-  display: flex;
-  width: auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.ASD-flex-section {
-  display: flex;
-  width: auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 40px
 }
 
 .DT-flex-section {
   display: flex;
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 40px
 }
 
 .DT-RC {
-  width: 48%;
+  width: 48%
 }
 
-.DT-RC p {
-  color: white;
-}
-
-.DT-RC h3 {
-  color: white;
-}
-
-.DT-proj h3 {
-  align-self: left;
-}
-
-.DT-proj p {
-  align-self: left;
+.DT-proj h3, .DT-proj p {
+  align-self: left
 }
 
 .DT-refl {
-  background-color: black;
+  background-color: #000
 }
 
-.DT-refl p {
-  align-self: left;
-  color: white;
+#DT-R2, #RC-bg {
+  background-color: #5400bf
 }
 
-.DT-refl h3 {
+.DT-refl h3, .DT-refl p {
   align-self: left;
-  color: white;
+  color: #fff
 }
 
 #RC {
   width: 430px;
   height: 334.29px;
-  margin-right: 15px;
-}
-
-#RC-bg {
-  background-color: rgb(84, 0, 191);
+  margin-right: 15px
 }
 
 .brainstorm-img {
   width: 300px;
   height: 424.64px;
-  margin: 10px;
+  margin: 10px
 }
 
 #DT-needs {
-  width: 100%;
+  width: 100%
 }
 
 #DT-TB {
-  width: 70%;
+  width: 70%
 }
 
 #DT-R2 {
-  background-color: rgb(84, 0, 191);
-  padding-bottom: 40px;
-}
-
-#DT-R2 p {
-  color: white;
-}
-
-#DT-R2 h3 {
-  color: white;
-}
-
-#DT-R2 li {
-  color: white;
+  padding-bottom: 40px
 }
 
 .DT-bed {
   width: 60%;
-  margin: 10px;
+  margin: 10px
 }
 
 .flex-box-7 ul {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  list-style-type: none;
+  justify-content: space-around
 }
 
 .flex-box-7 a {
   display: inline-block;
-  text-decoration: none;
   padding: 1px 14px;
   background: #000;
-  color: #fff;
   text-transform: uppercase;
   box-shadow: 0 0 1px #000;
-  font-size: 14px;
+  font-size: 14px
+}
+
+.down-button, .label, .role {
+  font-size: 25px
 }
 
 #row {
-  flex-direction: row;
+  flex-direction: row
 }
 
 .button-margin {
-  margin: 30px 10px 0px 10px;
+  margin: 30px 10px 0
+}
+
+.role, a.info {
+  margin-bottom: 20px;
+  font-family: Lato, sans-serif
+}
+
+.down-button {
+  font-family: Lato, sans-serif;
+  margin-top: 15%
 }
 
 #scroll-up {
@@ -536,337 +502,275 @@ h1 {
   right: 30px;
   z-index: 99;
   border: none;
-  outline: none;
-  background-color: rgb(84, 0, 191);
-  color: white;
+  outline: 0;
+  background-color: #5400bf;
   cursor: pointer;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 10px
 }
 
 #scroll-up:hover {
-  background-color: #555;
+  background-color: #555
 }
 
 a.info {
-  font-family: 'Lato', sans-serif;
-  background-color: rgb(171, 91, 203);
-  margin-top: 20px;
+  background-color: #ab5bcb;
+  margin-top: 20px
 }
 
 .around {
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 .between {
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .label {
   justify-content: center;
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: 700
 }
 
 .pic-text {
-  margin: 20px;
+  margin: 20px
 }
 
 .col {
   flex-direction: column;
-  align-items: center;
+  align-items: center
 }
 
 #research-idea {
-  width: 50%;
+  width: 50%
 }
 
 .role {
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 20px;
+  text-align: center
 }
 
 #persona {
   width: 45%;
   height: 45%;
-  margin: 10px;
+  margin: 10px
 }
 
 #journey {
   width: 55%;
   height: 55%;
-  margin: 10px;
+  margin: 10px
 }
 
 .flex-box-0 {
-  margin-top: 20px;
   margin-bottom: 20px;
-  width: 100%;
+  width: 100%
 }
 
-.flex-box-1 {
+.flex-box-1, .flex-box-2, .flex-box-3, .flex-box-4, .flex-box-5, .flex-box-6, .flex-box-7 {
   margin-top: 20px;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%
 }
 
-.flex-box-2 {
-  margin-top: 20px;
+.flex-box-2, .flex-box-3 {
   margin-bottom: 20px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.flex-box-3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
 .flex-box-4 {
   flex-direction: row;
-  margin-top: 20px;
   margin-bottom: 20px;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
-.flex-box-5 {
-  margin-top: 20px;
+.flex-box-5, .flex-box-6 {
   margin-bottom: 20px;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
-.flex-box-6 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.flex-box-7 {
-  margin-top: 20px;
+.col-1, .flex-box-7 ul {
+  flex-direction: column;
+  display: flex
 }
 
 .flex-box-3 p {
+  font-size: 20px
+}
+
+.flex-box-5 p, .flex-box-6 p {
   font-size: 20px;
+  text-align: center
 }
 
-.flex-box-5 p {
-  font-size: 20px;
-  text-align: center;
-}
-
-.flex-box-6 p {
-  font-size: 20px;
-  text-align: center;
-}
-
-.flex-box-7 p {
-  margin: 5px 0px 5px 15px;
-}
-
-.flex-box-7 h3 {
-  margin: 5px 0px 5px 15px;
+.flex-box-7 h3, .flex-box-7 p {
+  margin: 5px 0 5px 15px
 }
 
 .flex-box-7 ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
+  margin: 0 0 0 30px;
+  padding: 0
 }
 
 .flex-box-7 li {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-}
-
-.col-1 {
-  display: flex;
-  flex-direction: column;
+  font-family: Lato, sans-serif;
+  font-size: 16px
 }
 
 .col-2 {
   display: flex;
   flex-direction: column;
   right: 0;
-  left: 50%;
+  left: 50%
+}
+
+.info, .view .info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1px 14px;
+  color: #fff;
+  text-transform: uppercase
 }
 
 .view .info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1px 14px;
-  background: rgb(59, 59, 59);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: 0 0 1px rgb(59, 59, 59);
-  font-family: 'Lato', sans-serif;
+  background: #3b3b3b;
+  box-shadow: 0 0 1px #3b3b3b;
+  font-family: Lato, sans-serif
 }
 
 .view .info:hover {
-  box-shadow: 0 0 5px rgb(59, 59, 59)
+  box-shadow: 0 0 5px #3b3b3b
 }
 
 .info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1px 14px;
   background: #000;
-  color: #fff;
-  text-transform: uppercase;
   box-shadow: 0 0 1px #000;
-  font-size: 14px;
+  font-size: 14px
 }
 
 footer {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 10px;
-  margin-top: 50px;
   position: static;
   bottom: 0;
   display: flex;
   justify-content: space-between;
+  margin: 50px 15% 10px
 }
 
 footer ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 
 footer ul li {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   margin-right: 10px;
   margin-left: 10px;
   font-size: 13px;
   margin-bottom: 10px;
-  color: rgb(59, 59, 59);
+  color: #3b3b3b
 }
 
 footer li a {
-  color: black;
+  color: #000
 }
 
 footer li a:hover {
-  color: rgb(79, 170, 179);
+  color: #4faab3
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
-  /* Styles */
-  .flex-container {
-    margin-left: 10%;
-    margin-right: 10%;
+@media only screen and (min-width:320px) and (max-width:1000px) {
+  .final, .linked-list {
+    width: 100%
+  }
+  .center, .col p, h4 {
+    text-align: center
+  }
+  .bio, .logo, nav {
+    display: flex
   }
   #about {
     display: none;
-    justify-content: space-between;
+    justify-content: space-between
   }
   p {
-    margin: 0px;
-    font-size: 18px;
+    margin: 0;
+    font-size: 18px
   }
   .col p {
-    margin: 0px 10px 0px 10px;
-    text-align: center;
+    margin: 0 10px
   }
-  #info {
-    text-align: left;
+  .flex-container, footer {
+    margin-left: 10%;
+    margin-right: 10%
   }
-  #next {
-    text-align: left;
+  #info, #next {
+    text-align: left
   }
   .final {
-    width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff
   }
   .center {
-    justify-content: center;
-    text-align: center;
-  }
-  .bio {
-    display: flex;
-  }
-  .linked-list {
-    width: 100%;
+    justify-content: center
   }
   .flex-box-1 {
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
   .col-2 img {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     align-self: center;
-    width: 90%;
+    width: 90%
+  }
+  .logo, nav, nav ul {
+    width: 100%
   }
   .logo {
-    display: flex;
     font-size: 40px;
-    width: 100%;
-    justify-content: center;
+    justify-content: center
+  }
+  h2 {
+    font-size: 20px
   }
   nav {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    flex-direction: column
   }
   nav ul {
     margin-top: 20px;
     justify-content: center;
-    width: 100%;
-    border-top: 2px rgb(129, 182, 176) solid;
+    border-top: 2px #81b6b0 solid
+  }
+  #row, footer ul {
+    flex-direction: column
   }
   footer {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 8%
   }
   .flex-container {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 5%;
-  }
-  footer ul {
-    flex-direction: column;
+    padding-bottom: 5%
   }
   footer ul li {
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
-  .view-image {
+  .view, .view .content, .view .mask, .view-image {
     width: 240px;
-    height: 160px;
+    height: 160px
   }
-  .view {
-    width: 240px;
-    height: 160px;
-  }
-  .view .mask, .view .content {
-    width: 240px;
-    height: 160px;
+  #gif, .ex-img, .kinekt-img, iframe {
+    height: 100%
   }
   .view h2 {
-    font-size: 12px;
+    font-size: 12px
   }
   .title span {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px
   }
   .view p {
-    font-family: 'Lato', sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 10px;
-    margin: 15px 10px 15px 10px;
-    color: #000000;
+    margin: 15px 10px;
+    color: #000
   }
   .view a.info {
     display: inline-block;
@@ -876,154 +780,107 @@ footer li a:hover {
     color: #fff;
     text-transform: uppercase;
     box-shadow: 0 0 1px #000;
-    font-size: 14px;
+    font-size: 14px
   }
   .page-title {
-    font-size: 30px;
+    font-size: 30px
   }
   .role {
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 5px
+  }
+  .flex-box-3 p, .flex-box-5 p, .flex-box-6 p, .flex-box-7 p {
+    font-size: 14px
   }
   a.info {
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-  .flex-box-5 p {
-    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px
   }
   .ASD-flex-section {
     margin-bottom: 20px;
-    width: 100%;
+    width: 100%
   }
-  .ASD-tut-img {
+  .ASD-img, .ASD-tut-img {
     width: 100%;
-    height: 100%;
-  }
-  .ASD-img {
-    width: 100%;
-    height: 100%;
+    height: 100%
   }
   .flex-box-7 p {
-    font-size: 14px;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: left
   }
   .flex-box-7 h3 {
-    margin-left: 10px;
+    margin-left: 10px
   }
   .flex-box-7 ul {
-    margin: 0px 30px 0px 30px;
+    margin: 0 30px
   }
   .flex-box-7 li {
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0
   }
   #row {
-    flex-direction: column;
-    align-items: center;
+    align-items: center
   }
   #RC {
     width: 98%;
-    height: 98%;
+    height: 98%
   }
   .col-not-row {
-    flex-direction: column;
+    flex-direction: column
   }
   .DT-RC {
-    width: 100%;
+    width: 100%
   }
   .DT-bed {
-    width: 80%;
+    width: 80%
   }
   .DT-flex-section {
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
   .DT-flex-section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 10px
   }
   iframe {
-    height: 100%;
-    width: 100%;
+    width: 100%
   }
   .brainstorm-img {
-    width: 95%;
+    width: 95%
   }
   .images {
-    display: block;
+    display: block
   }
   #DT-TB {
-    width: 85%;
+    width: 85%
   }
-  .flex-box-3 p {
-    font-size: 14px;
+  #research-idea, .ex-img, .kinekt-flex-section, .post-its {
+    width: 100%
   }
-  .ex-img {
+  #journey, #persona {
     width: 100%;
-    height: 100%;
+    margin: 0
   }
-  .flex-box-6 p {
-    font-size: 14px;
+  .flow, .kinekt-img {
+    margin: 0 0 10px;
+    width: 100%
   }
-  .kinekt-flex-section {
-    width: 100%;
-  }
-  #research-idea {
-    width: 100%;
-  }
-  .post-its {
-    width: 100%;
-  }
-  #persona {
-    width: 100%;
-    margin: 0;
-  }
-  #journey {
-    width: 100%;
-    margin: 0;
-  }
-  .flow {
-    width: 100%;
-    margin: 0px 0px 10px 0px;
-  }
-  .kinekt-img {
-    height: 100%;
-    width: 100%;
-    margin: 0px 0px 10px 0px;
-  }
-  .flex-box-4 {
-    width: 100%;
-  }
-  #gif {
-    width: 100%;
-    height: 100%;
+  #gif, .flex-box-4 {
+    width: 100%
   }
 }
 
-/* Desktops and laptops ----------- */
-
-@media only screen and (min-width: 1100px) {
-  /* Styles */
+@media only screen and (min-width:1100px) {
   .masonry {
-    column-count: 4;
+    column-count: 4
   }
 }
 
-@media only screen and (min-width: 900px) {
-  /* Styles */
+@media only screen and (min-width:900px) {
   .masonry {
-    column-count: 3;
+    column-count: 3
   }
 }
 
-@media only screen and (min-width: 700px) {
-  /* Styles */
+@media only screen and (min-width:700px) {
   .masonry {
-    column-count: 2;
+    column-count: 2
   }
-}
-
-/* Large screens ----------- */
-
-@media only screen and (min-width: 1824px) {
-  /* Styles */
 }
