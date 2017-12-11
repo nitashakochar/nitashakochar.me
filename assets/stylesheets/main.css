@@ -872,8 +872,7 @@ footer li a:hover {
     text-align: center;
   }
   .welcome-description {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin: 40px 10px 30px 10px;
   }
   .linked-list {
     width: 100%;
