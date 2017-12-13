@@ -448,11 +448,15 @@ h1 {
   width: 100%
 }
 
-.ASD-flex-section, .kinekt-flex-section, .libero-flex-section {
+.ASD-flex-section, .kinekt-flex-section, .libero-flex-section, .misc-flex-section {
   display: flex;
   width: auto;
   margin-top: 20px;
   margin-bottom: 40px
+}
+
+#duo-tone {
+  width: 90%;
 }
 
 .DT-flex-section {
@@ -737,7 +741,8 @@ footer li a:hover {
     width: 100%
   }
   .center, .col p, h4 {
-    text-align: center
+    text-align: center;
+    align-self: center;
   }
   .logo, nav {
     display: flex
@@ -768,7 +773,10 @@ footer li a:hover {
     color: #fff
   }
   .center {
-    justify-content: center
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    align-content: center;
   }
   .welcome-description {
     margin: 40px 10px 30px
