@@ -2,7 +2,7 @@
   align-self: center
 }
 
-.down-button, .flex-box-7 a, .view a.info, nav li {
+.down-button, .flex-box-7 a, .view a.info, nav li,  a, a:-webkit-any-link{
   text-decoration: none
 }
 
@@ -20,9 +20,8 @@ body, html {
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-bottom: 1px #81b6b0 solid;
-  border-top: 3px #81b6b0 solid;
-  padding-bottom: 2.5%
+  border-bottom: 1px #3b3b3b solid;
+  border-top: 3px #3b3b3b solid;
 }
 
 #nk {
@@ -97,11 +96,10 @@ button {
   color: #3b3b3b
 }
 
-#back {
-  align-self: left;
-  font-size: 16px;
-  color: purple
+button a{
+  color: white;
 }
+
 
 .selected, button:hover {
   color: #4faab3
@@ -113,8 +111,8 @@ button {
 
 nav {
   padding-top: 50px;
-  border-bottom: 2px #81b6b0 solid;
-  justify-content: space-between
+  justify-content: space-between;
+  background-color: black;
 }
 
 nav ul {
@@ -127,11 +125,16 @@ nav ul {
 nav li {
   margin: 10px;
   text-align: center;
-  font-size: 13px
+  color: white;
 }
 
-nav li:hover {
-  color: #4faab3
+ li a {
+  color: white;
+  font-size: 13px;
+}
+
+li a:hover{
+  color: #4faab3;
 }
 
 .linked-list a, p {
@@ -148,7 +151,7 @@ p {
 }
 
 .bio {
-  border-bottom: 1px #81b6b0 solid;
+  border-bottom: 1px #3b3b3b solid;
   padding-bottom: 25px
 }
 
@@ -398,6 +401,10 @@ h1 {
   align-self: flex-start
 }
 
+h1 a{
+  color: white;
+}
+
 .description {
   display: flex;
   width: 100%;
@@ -417,16 +424,17 @@ h1 {
 }
 
 #about {
-  display: none;
+  display: flex;
   justify-content: space-between
 }
 
 .project-list {
   display: flex;
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
   flex-grow: 1;
-  justify-content: center
+  justify-content: center;
+  margin-left: 10%;
 }
 
 .flex-box-2 img {
@@ -619,7 +627,7 @@ a.info {
 
 .flex-box-0 {
   margin-bottom: 20px;
-  width: 100%
+  width: 100%;
 }
 
 .flex-box-1, .flex-box-2, .flex-box-3, .flex-box-4, .flex-box-5, .flex-box-6, .flex-box-7 {
@@ -676,7 +684,8 @@ a.info {
   display: flex;
   flex-direction: column;
   right: 0;
-  left: 50%
+  left: 50%;
+  margin-bottom: 30px;
 }
 
 .info, .view .info {
@@ -708,7 +717,8 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  margin: 50px 15% 10px
+  padding: 50px 15% 10px;
+  background-color: black;
 }
 
 footer ul {
@@ -717,6 +727,7 @@ footer ul {
   overflow: hidden;
   display: flex;
   justify-content: flex-start
+
 }
 
 footer ul li {
@@ -725,11 +736,11 @@ footer ul li {
   margin-left: 10px;
   font-size: 13px;
   margin-bottom: 10px;
-  color: #3b3b3b
+  color: white;
 }
 
 footer li a {
-  color: #000
+  color: white;
 }
 
 footer li a:hover {
@@ -747,11 +758,12 @@ footer li a:hover {
   .logo, nav {
     display: flex
   }
+
   #RC, .col-2 img {
     align-self: center
   }
   #about {
-    display: none;
+    display: flex;
     justify-content: space-between
   }
   p {
@@ -781,12 +793,11 @@ footer li a:hover {
   .welcome-description {
     margin: 40px 10px 30px
   }
-  .flex-container, footer {
-    margin-left: 10%;
-    margin-right: 10%
-  }
   .flex-box-1 {
     flex-wrap: wrap
+  }
+  .col-2 {
+    width: 100%;
   }
   .col-2 img {
     padding-bottom: 0;
@@ -797,6 +808,7 @@ footer li a:hover {
   }
   .logo {
     font-size: 40px;
+    color: white;
   }
   h2 {
     font-size: 20px
@@ -807,13 +819,10 @@ footer li a:hover {
   nav ul {
     margin-top: 20px;
     justify-content: center;
-    border-top: 2px #81b6b0 solid
+    border-top: 2px white solid
   }
   #row, footer ul {
     flex-direction: column
-  }
-  footer {
-    margin-top: 8%
   }
   .flex-container {
     padding-bottom: 5%
