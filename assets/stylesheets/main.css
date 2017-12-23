@@ -434,7 +434,22 @@ h1 a{
   flex-wrap: wrap;
   flex-grow: 1;
   justify-content: center;
-  margin-left: 10%;
+}
+
+.pdf-port{
+  font-size: 18px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  padding: 5px;
+}
+
+.flex-box-pdf{
+    margin: 40px 0px 20px 0px;
+}
+
+.flex-box-pdf a:hover{
+  color: rgb(164, 39, 184);
 }
 
 .flex-box-2 img {
@@ -623,6 +638,11 @@ a.info {
   width: 55%;
   height: 55%;
   margin: 10px
+}
+
+.flex-box{
+  display: flex;
+  justify-content: center;
 }
 
 .flex-box-0 {
