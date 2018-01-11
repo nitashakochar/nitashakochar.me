@@ -1,0 +1,19 @@
+{
+  "name": "nitashakochar.me",
+  "version": "1.0.0",
+  "description": "Online portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitashakochar/nitashakochar.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitashakochar/nitashakochar.me/issues"
+  },
+  "homepage": "https://github.com/nitashakochar/nitashakochar.me#readme"
+}
