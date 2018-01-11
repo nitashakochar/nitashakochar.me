@@ -40,12 +40,24 @@ function scrollFunction() {
 //     document.documentElement.scrollTop = 0;
 // }
 
-$(document).ready(function(){
-   $("#scroll-up").click(function(){
-      console.log("scroll to top")
-   $('html').animate({scrollTop: 0}, 400, 'linear');
-});
-});
+if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+            window.scrollTo(200,100) // first value for left offset, second value for top offset
+}else{
+  $(document).ready(function(){
+     $("#scroll-up").click(function(){
+        console.log("scroll to top")
+     $('html').animate({scrollTop: 0}, 400, 'linear');
+  });
+  });
+}
+
+
+// $(document).ready(function(){
+//    $("#scroll-up").click(function(){
+//       console.log("scroll to top")
+//    $('html').animate({scrollTop: 0}, 400, 'linear');
+// });
+// });
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
