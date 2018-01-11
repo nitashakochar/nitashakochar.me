@@ -823,6 +823,9 @@ footer li a:hover {
     padding-bottom: 0;
     width: 90%
   }
+  .col-1{
+    text-align: center;
+  }
   .logo, nav, nav ul {
     width: 100%
   }
