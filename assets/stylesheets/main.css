@@ -767,6 +767,7 @@ footer li a:hover {
   color: #4faab3
 }
 
+
 @media only screen and (min-width:320px) and (max-width:1000px) {
   .final, .linked-list {
     width: 100%

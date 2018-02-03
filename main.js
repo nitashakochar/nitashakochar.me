@@ -29,6 +29,9 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("scroll-up").style.display = "block";
         console.log("scrolling down")
+    } else if(window.pageYOffset > 20 || document.documentElement.scrollTop > 20){
+      document.getElementById("scroll-up").style.display = "block";
+      console.log("scrolling down")
     } else {
         document.getElementById("scroll-up").style.display = "none";
     }
