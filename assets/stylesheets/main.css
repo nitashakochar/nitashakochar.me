@@ -2,7 +2,22 @@
   align-self: center
 }
 
-.down-button, .flex-box-7 a, .view a.info, nav li,  a, a:-webkit-any-link{
+.welcome-info {
+  width: 70%;
+}
+
+.welcome-description {
+  margin: 50px 200px;
+}
+
+.welcome-info h2 {
+  font-size: 5vh;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.down-button, .flex-box-7 a, .view a.info, nav li, a, a:-webkit-any-link {
   text-decoration: none
 }
 
@@ -13,15 +28,14 @@
 body, html {
   padding: 0;
   margin: 0;
-  top: 0
+  top: 0;
+  background-color: #F8F8F8;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-bottom: 1px #3b3b3b solid;
-  border-top: 3px #3b3b3b solid;
 }
 
 #nk {
@@ -40,17 +54,38 @@ body, html {
   margin-left: 10px
 }
 
+.nk-logo li {
+  text-decoration: none;
+}
+
+.width30 {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+}
+
+.left-nav {
+  justify-content: flex-start;
+  margin-left: 2%;
+}
+
+.right-nav {
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-  height: 100vh;
-  background-image: url(../home/sspic-small.jpg);
+  height: 60vh;
+  /* background-image: url(../home/sspic-small.jpg); */
   background-size: cover;
-  background-color: #000;
-  margin-bottom: 50px
+  margin-top: 10%;
+  width: 80%;
 }
 
 h4 {
@@ -67,12 +102,8 @@ h4 {
 
 .logo {
   font-size: 30px;
-  font-weight: lighter;
-  margin: 0 0 0 5px
-}
-
-.logo span {
-  font-weight: 300
+  font-weight: normal;
+  margin: 0
 }
 
 .hidden {
@@ -96,27 +127,25 @@ button {
   color: #3b3b3b
 }
 
-button a{
-  color: white;
+button a {
+  color: #868686;
 }
 
-
 .selected, button:hover {
-  color: #4faab3
+  color: #000000
 }
 
 .unselected, nav li {
-  color: #3b3b3b
+  color: #868686
 }
 
 nav {
   padding-top: 50px;
   justify-content: space-between;
-  background-color: black;
 }
 
 nav ul {
-  margin: 0 25px 0 0;
+  margin: 0;
   padding: 0;
   overflow: hidden;
   justify-content: flex-end
@@ -125,16 +154,16 @@ nav ul {
 nav li {
   margin: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
- li a {
-  color: white;
+li a {
+  color: black;
   font-size: 13px;
 }
 
-li a:hover{
-  color: #4faab3;
+li a:hover {
+  color: rgb(125, 83, 177);
 }
 
 .linked-list a, p {
@@ -143,7 +172,7 @@ li a:hover{
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 10px 10px 20px
+  margin: 10px 30px 20px
 }
 
 .linked-list li, .page-title, h2 {
@@ -151,8 +180,8 @@ p {
 }
 
 .bio {
-  border-bottom: 1px #3b3b3b solid;
-  padding-bottom: 25px
+  /* border-bottom: 1px #3b3b3b solid; */
+  padding-bottom: 25px;
 }
 
 .linked-list {
@@ -179,8 +208,9 @@ p {
 }
 
 #profileimage {
-  margin-top: 20px;
-  padding-bottom: 50px
+  margin-top: 75px;
+  padding-bottom: 50px;
+  width: 600px;
 }
 
 .view-image {
@@ -221,7 +251,7 @@ p {
 h2 {
   font-size: 30px;
   text-align: center;
-  background-color: #eff58a
+  /* background-color: #eff58a */
 }
 
 .view a.info, .view h2 {
@@ -270,9 +300,11 @@ h3 {
   0% {
     top: 0
   }
+
   100%, 25% {
     top: 10px
   }
+
   75% {
     top: 20px
   }
@@ -282,9 +314,11 @@ h3 {
   0%, 80% {
     top: 0
   }
+
   20%, 60% {
     top: 3px
   }
+
   40% {
     top: 6px
   }
@@ -401,8 +435,8 @@ h1 {
   align-self: flex-start
 }
 
-h1 a{
-  color: white;
+h1 a {
+  color: black;
 }
 
 .description {
@@ -419,8 +453,12 @@ h1 a{
   text-align: center
 }
 
-#DT-R2 h3, #DT-R2 li, #DT-R2 p, #scroll-up, .DT-RC h3, .DT-RC p, .down-button, .flex-box-7 a {
+#DT-R2 h3, #DT-R2 li, #DT-R2 p, #scroll-up, .DT-RC h3, .DT-RC p, .flex-box-7 a {
   color: #fff
+}
+
+.down-button {
+  color: black;
 }
 
 #about {
@@ -436,7 +474,7 @@ h1 a{
   justify-content: center;
 }
 
-.pdf-port{
+.pdf-port {
   font-size: 18px;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -444,11 +482,11 @@ h1 a{
   padding: 5px;
 }
 
-.flex-box-pdf{
-    margin: 40px 0px 20px 0px;
+.flex-box-pdf {
+  margin: 7% 0;
 }
 
-.flex-box-pdf a:hover{
+.flex-box-pdf a:hover {
   color: rgb(164, 39, 184);
 }
 
@@ -636,7 +674,7 @@ a.info {
   margin: 10px
 }
 
-.flex-box{
+.flex-box {
   display: flex;
   justify-content: center;
 }
@@ -644,6 +682,11 @@ a.info {
 .flex-box-0 {
   margin-bottom: 20px;
   width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: col;
 }
 
 .flex-box-1, .flex-box-2, .flex-box-3, .flex-box-4, .flex-box-5, .flex-box-6, .flex-box-7 {
@@ -670,7 +713,8 @@ a.info {
 
 .col-1, .flex-box-7 ul {
   flex-direction: column;
-  display: flex
+  display: flex;
+  align-self: center;
 }
 
 .flex-box-3 p {
@@ -699,9 +743,9 @@ a.info {
 .col-2 {
   display: flex;
   flex-direction: column;
-  right: 0;
+  align-self: center;
+  right: 3%;
   left: 50%;
-  margin-bottom: 30px;
 }
 
 .info, .view .info {
@@ -733,8 +777,10 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  padding: 50px 15% 10px;
-  background-color: black;
+  padding: 5% 0% 3% 0%;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
 }
 
 footer ul {
@@ -743,35 +789,34 @@ footer ul {
   overflow: hidden;
   display: flex;
   justify-content: flex-start
-
 }
 
 footer ul li {
   font-family: Lato, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
   font-size: 13px;
   margin-bottom: 10px;
-  color: white;
+  color: black;
 }
 
 footer li a {
-  color: white;
+  color: black;
+  margin-left: 10px;
 }
 
 footer li a:hover {
-  color: #4faab3
+  color: #000000
 }
-
 
 @media only screen and (min-width:320px) and (max-width:1000px) {
   .final, .linked-list {
     width: 100%
   }
+
   .center, .col p, h4 {
     text-align: center;
     align-self: center;
   }
+
   .logo, nav {
     display: flex
   }
@@ -779,97 +824,119 @@ footer li a:hover {
   #RC, .col-2 img {
     align-self: center
   }
+
   #about {
     display: flex;
     justify-content: space-between
   }
+
   p {
     margin: 0;
     font-size: 18px
   }
+
   .col p {
     margin: 0 10px
   }
+
   #info, #next {
     text-align: left
   }
+
   .nk-logo {
     margin-left: 0;
     align-self: center;
   }
+
   .final {
     background-color: #000;
     color: #fff
   }
+
   .center {
     justify-content: center;
     align-self: center;
     text-align: center;
     align-content: center;
   }
-  .welcome-description {
-    margin: 40px 10px 30px
-  }
+
   .flex-box-1 {
     flex-wrap: wrap
   }
+
   .col-2 {
     width: 100%;
   }
+
   .col-2 img {
     padding-bottom: 0;
     width: 90%
   }
-  .col-1{
+
+  .col-1 {
     text-align: center;
   }
+
   .logo, nav, nav ul {
     width: 100%
   }
+
   .logo {
     font-size: 40px;
-    color: white;
+    color: black;
   }
+
   h2 {
     font-size: 20px
   }
+
   nav {
     flex-direction: column
   }
+
   nav ul {
     margin-top: 20px;
     justify-content: center;
     border-top: 2px white solid
   }
+
   #row, footer ul {
     flex-direction: column
   }
+
   .flex-container {
     padding-bottom: 5%
   }
+
   footer ul li {
     margin-bottom: 20px
   }
+
   .view, .view .content, .view .mask, .view-image {
     width: 240px;
     height: 160px
   }
+
   #gif, .ex-img, .kinekt-img, iframe {
     height: 100%
   }
+
   .view h2 {
     font-size: 12px
   }
+
   .title span {
     font-weight: 700;
     font-size: 14px
   }
+
   .view p {
     font-family: Lato, sans-serif;
     font-size: 10px;
     margin: 15px 10px;
     color: #000
   }
+
   .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -880,24 +947,30 @@ footer li a:hover {
     box-shadow: 0 0 1px #000;
     font-size: 14px
   }
+
   .page-title {
     font-size: 30px
   }
+
   .role {
     font-size: 20px;
     margin-top: 5px
   }
+
   .flex-box-3 p, .flex-box-5 p, .flex-box-6 p, .flex-box-7 p {
     font-size: 14px
   }
+
   a.info {
     margin-top: 0;
     margin-bottom: 10px
   }
+
   .ASD-flex-section {
     margin-bottom: 20px;
     width: 100%
   }
+
   .ASD-img, .ASD-tut-img {
     width: 100%;
     height: 100%
@@ -907,70 +980,90 @@ footer li a:hover {
     width: 50%;
     height: 50%;
   }
+
   .flex-box-7 p {
     margin-bottom: 20px;
     text-align: left
   }
+
   .flex-box-7 h3 {
     margin-left: 10px
   }
+
   .flex-box-7 ul {
     margin: 0 30px
   }
+
   .flex-box-7 li {
     margin: 5px 0
   }
+
   #row {
     align-items: center
   }
+
   #RC {
     width: 98%;
     height: 98%;
     margin: 0
   }
+
   .col-not-row {
     flex-direction: column
   }
+
   .DT-RC {
     width: 100%
   }
+
   .DT-bed {
     width: 80%
   }
+
   .DT-flex-section {
     margin-bottom: 20px
   }
+
   .DT-flex-section h2 {
     margin-bottom: 10px
   }
+
   iframe {
     width: 100%
   }
+
   .brainstorm-img {
     width: 95%
   }
+
   .images {
     display: flex;
     justify-content: center
   }
+
   #DT-TB {
     width: 85%
   }
+
   #research-idea, .ex-img, .kinekt-flex-section, .post-its {
     width: 100%
   }
+
   #journey, #persona {
     width: 100%;
     margin: 0
   }
+
   .flow, .kinekt-img {
     margin: 0 0 10px;
     width: 100%
   }
+
   .flex-box-4 {
     width: 100%;
     margin-left: 0
   }
+
   #gif {
     width: 80%
   }
@@ -992,4 +1085,9 @@ footer li a:hover {
   .masonry {
     column-count: 2
   }
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
 }
