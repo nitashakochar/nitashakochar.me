@@ -128,7 +128,7 @@ button {
 }
 
 button a {
-  color: #868686;
+  color: white;
 }
 
 .selected, button:hover {
