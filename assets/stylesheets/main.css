@@ -3,15 +3,23 @@
 }
 
 .welcome-info {
-  width: 70%;
+  width: 50%;
 }
 
-.welcome-description {
+/* .welcome-description {
   margin: 50px 200px;
+} */
+.welcome-description {
+  margin: 10% 0 0 0;
+}
+
+.welcome-description h2 {
+  background-color: #F8F8F8;
+  margin: 0 10%;
+  font-size: 40px;
 }
 
 .welcome-info h2 {
-  font-size: 5vh;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -179,15 +187,21 @@ p {
   font-family: Lato, sans-serif
 }
 
-.bio {
+.row-1 {
   /* border-bottom: 1px #3b3b3b solid; */
   padding-bottom: 25px;
+  justify-content: center;
+}
+
+.row-1 p {
+  margin: 0 25% 1% 25%;
 }
 
 .linked-list {
   padding: 0;
   width: 95%;
-  justify-content: center
+  justify-content: center;
+  flex-direction: row;
 }
 
 .linked-list li {
@@ -245,13 +259,14 @@ p {
 
 .page-title {
   font-size: 45px;
-  background-color: #000
+  background-color: #000;
+  padding: 1%;
 }
 
 h2 {
   font-size: 30px;
   text-align: center;
-  /* background-color: #eff58a */
+  background-color: #eff58a
 }
 
 .view a.info, .view h2 {
@@ -453,7 +468,7 @@ h1 a {
   text-align: center
 }
 
-#DT-R2 h3, #DT-R2 li, #DT-R2 p, #scroll-up, .DT-RC h3, .DT-RC p, .flex-box-7 a {
+#DT-R2 h3, #DT-R2 li, #DT-R2 p, .scroll-up, .DT-RC h3, .DT-RC p, .flex-box-7 a {
   color: #fff
 }
 
@@ -613,7 +628,7 @@ h1 a {
   cursor: pointer
 }
 
-#scroll-up {
+.scroll-up {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -812,13 +827,40 @@ footer li a:hover {
     width: 100%
   }
 
-  .center, .col p, h4 {
+  .center, h4 {
     text-align: center;
     align-self: center;
   }
 
+  .width30 {
+    width: 100%;
+  }
+
+  header {
+    height: 40vh;
+  }
+
+  .welcome-description {
+    margin: 15% 0 5% 0;
+  }
+
+  .welcome-description h2 {
+    background-color: #F8F8F8;
+    font-size: 24px;
+  }
+
+  /* .welcome-description h2 {
+    background-color: #F8F8F8;
+    margin: 0 10%;
+    font-size: 40px;
+  } */
   .logo, nav {
-    display: flex
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-nav {
+    display: none;
   }
 
   #RC, .col-2 img {
@@ -828,6 +870,10 @@ footer li a:hover {
   #about {
     display: flex;
     justify-content: space-between
+  }
+
+  #profileimage {
+    width: 100%;
   }
 
   p {
@@ -861,7 +907,8 @@ footer li a:hover {
   }
 
   .flex-box-1 {
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .col-2 {
@@ -897,7 +944,6 @@ footer li a:hover {
   nav ul {
     margin-top: 20px;
     justify-content: center;
-    border-top: 2px white solid
   }
 
   #row, footer ul {
@@ -1067,6 +1113,24 @@ footer li a:hover {
   #gif {
     width: 80%
   }
+
+  .row-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row-1 p {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  .scroll-up {
+    display: none;
+  }
 }
 
 @media only screen and (min-width:1100px) {
@@ -1085,9 +1149,4 @@ footer li a:hover {
   .masonry {
     column-count: 2
   }
-}
-
-.row-1 {
-  display: flex;
-  flex-direction: row;
 }
