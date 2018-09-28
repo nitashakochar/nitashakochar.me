@@ -36,33 +36,99 @@
     </nav>
 
     <!--start of cs52-->
-
     <div class="kinekt-flex-section flex-box-cs52 col cs52-bg header-bg">
       <div class="page-title">CS52: Full-Stack Web Development</div>
       <div class="role">Student, Developer, & Designer</div>
     </div>
 
-    <div class="flex-box col">
-      <!--Blog-->
-      <div>
+    <div class="flex-box-10 col">
 
+      <!-- <div class="flex around">
         <a href="http://lab4-nitashakochar.surge.sh/" target="_blank">
           <img class="view-image" src="assets/project-files/blog.png" />
           </a>
-
-        <!--Float notes-->
         <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" target="_blank" >
           <img class="view-image" src="assets/project-files/FLOATNOTES.png" />
           </a>
+      </div> -->
 
+      <div class="flex col">
+        <div class=" flex col align-items-center">
+          <h2>Project 1: Blog</h2>
+        </div> <h3>What did I build?</h3>
+        <p>
+          A Create+Update+Delete (CRUD) style blogging app built using using React and Redux and React-Router. To make this project actually full-stack, I also built a Nodejs+Express+Mongo based API server, which supports ‘title’, ‘content’,
+          ‘tags’,
+          ‘cover_url’.
+        </p>
+        <div class="flex col align-items-center">
+          <img id="blog-pic" src="assets/cs52/blog-screenshot.png" alt="Blog" />
+          <a href="http://lab4-nitashakochar.surge.sh/" target="_blank"><button>Check it out!</button></a>
+        </div>
       </div>
 
-      <div class="flex-box-cs52 around col-not-row">
-      </div>
 
+      <div class="flex col cs52-section">
+        <div class="flex col align-items-center">
+          <h2>Project 2: FloatNotes</h2>
+        </div>
+        <h3>What did I build?</h3>
+        <p>A post-it note style app where users can add notes, move them around, edit them, and delete them. This React app will use Firebase as it’s backend to store collections of notes. The position of notes will also be stored, so people in
+          multiple browsers can edit and arrange them in realtime. The notes themselves will support markdown notation and editing.</p>
+
+        <h3>Basic Specs</h3>
+
+        <ul>
+          <li>
+            Add a note
+          </li>
+          <li>
+            Delete a note
+          </li>
+          <li>
+            Move a note in x, y
+          </li>
+          <li>
+            Edit a note:
+            title, content
+          </li>
+          <li>
+            Notes:
+            have title and content
+            display with some formatting
+          </li>
+          <li>
+            Persists all changes to Firebase in realtime
+          </li>
+          <li>
+            Updates based on Firebase events
+          </li>
+          <li>
+            Styling
+          </li>
+        </ul>
+        <div class="flex col align-items-center">
+          <img id="note-pic" src="assets/cs52/notes-screenshot_1.png"  alt="Notes"/>
+          <a href="https://dartmouth-cs52-17s.github.io/lab3-nitashakochar/" target="_blank" ><button>Check it out!</button></a>
+        </div>
+
+      </div>
 
     </div>
-  </div>
+
+    <div class="flex-box col cre-section projects-footer">
+      <div class="flex-box align-items-center">
+        <h2>View Other Projects</h2>
+      </div>
+      <div class="flex other-projects">
+        <a href="peapod.html"><img class="view-image-small" src="assets/peapod/Peapod.png" /></a>
+        <a href="cs52.html"><img class="view-image-small" src="assets/cs52/WebDev.png" /></a>
+        <a href="asd.html"><img class="view-image-small" src="assets/ASD/ASDlogo.png" /></a>
+        <a href="designThinking.html"><img class="view-image-small" src="assets/DT/DesignThinkLogo.png" /></a>
+        <a href="libero.html"><img class="view-image-small" src="assets/libero/Liberologo.png" /></a>
+        <a href="kinekt.html"><img class="view-image-small" src="assets/kinekt/Kinekt.png" /></a>
+      </div>
+    </div>
 
 
 </body>
