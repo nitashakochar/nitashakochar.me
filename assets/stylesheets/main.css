@@ -290,6 +290,36 @@ p {
   margin-right: 1%;
 }
 
+#cre-logo {
+  width: 20%;
+  margin: 3%;
+}
+
+#peapod-logo {
+  width: 15%;
+  margin: 3%;
+}
+
+#cs52-logo {
+  width: 20%;
+  margin: 3%;
+}
+
+#asd-logo {
+  width: 90%;
+  margin: 3%;
+}
+
+#libero-logo {
+  width: 22%;
+  margin: 3%;
+}
+
+#kinekt-logo {
+  width: 8%;
+  margin: 3%;
+}
+
 .margin-left-3 {
   margin-left: 3%;
 }
@@ -986,10 +1016,16 @@ a.info {
   flex-wrap: wrap
 }
 
-.col-1, .flex-box-7 ul {
+.flex-box-7 ul {
   flex-direction: column;
   display: flex;
   align-self: center;
+}
+
+.col-1 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .flex-box-3 p {
@@ -1094,6 +1130,24 @@ footer li a:hover {
 @media only screen and (min-width:320px) and (max-width:1000px) {
   .final, .linked-list {
     width: 100%
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto auto auto 0;
+  }
+
+  .view-image {
+    /* width: 300px;
+    height: 200px */
+    /* display: block;
+    width: 100%;
+    height: 100%; */
+    position: relative;
+    width: 70vw;
+    border: solid 1px rgb(255, 255, 255);
   }
 
   .center, h4 {
@@ -1385,6 +1439,10 @@ footer li a:hover {
 
   #gif {
     width: 80%
+  }
+
+  .projects-footer {
+    display: none;
   }
 
   .row-1 {
