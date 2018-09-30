@@ -37,11 +37,11 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//     document.body.scrollTop = 0;
-//     document.documentElement.scrollTop = 0;
-// }
+//When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
             window.scrollTo(200,100) // first value for left offset, second value for top offset
@@ -53,7 +53,6 @@ if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
   });
   });
 }
-
 
 // $(document).ready(function(){
 //    $("#scroll-up").click(function(){
