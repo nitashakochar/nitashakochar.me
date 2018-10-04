@@ -423,7 +423,8 @@ h3 {
 
 .item h3 {
   margin-top: 20px;
-  text-align: center
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .flow {
