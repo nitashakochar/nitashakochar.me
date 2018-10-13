@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="500px" viewBox="0 0 600 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>venn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="venn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#DFCEFF" stroke-width="4" fill="#D9C8FA" fill-rule="nonzero" opacity="0.7" cx="203" cy="203" r="150"></circle>
+        <circle id="Oval" stroke="#E5FECA" stroke-width="4" fill="#DAFBB6" fill-rule="nonzero" opacity="0.7" cx="397" cy="203" r="150"></circle>
+        <circle id="Oval" stroke="#DEF6FF" stroke-width="4" fill-opacity="0.6" fill="#C9F0FF" fill-rule="nonzero" cx="300" cy="330" r="150"></circle>
+        <path d="M352.392123,189.403851 C352.794469,193.882087 353,198.417041 353,203 C353,248.855699 332.423517,289.905502 300,317.41996 C267.576483,289.905502 247,248.855699 247,203 C247,198.417041 247.205531,193.882087 247.607877,189.403851 C263.917897,183.323505 281.570825,180 300,180 C318.429175,180 336.082103,183.323505 352.392123,189.403851 Z" id="Combined-Shape" stroke="#F6F7CC" stroke-width="4" fill="#FFF680" fill-rule="nonzero" opacity="0.7"></path>
+        <text id="Anthropology" font-family="AvenirNext-Medium, Avenir Next" font-size="20" font-weight="400" letter-spacing="-0.444444478" fill="#2D3343">
+            <tspan x="89.1333337" y="181">Anthropology</tspan>
+        </text>
+        <text id="Human-centered-Desig" font-family="AvenirNext-Medium, Avenir Next" font-size="20" font-weight="400" letter-spacing="-0.444444478" fill="#2D3343">
+            <tspan x="192.413334" y="394">Human-centered Design</tspan>
+        </text>
+        <text id="Computer-Science" font-family="AvenirNext-Medium, Avenir Next" font-size="20" font-weight="400" letter-spacing="-0.444444478" fill="#2D3343">
+            <tspan x="365.771112" y="181">Computer Science</tspan>
+        </text>
+        <text id="Me" font-family="AvenirNext-DemiBold, Avenir Next" font-size="20" font-weight="500" letter-spacing="-0.444444478" fill="#2D3343">
+            <tspan x="284.008889" y="242">Me</tspan>
+        </text>
+    </g>
+</svg>

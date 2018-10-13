@@ -12,6 +12,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="main.js"></script>
+  <script src="snap.svg-min.js"></script>
 </head>
 
 <body>
@@ -37,71 +38,125 @@
 
 
     <!--start of projects-->
+
     <div class="flex-box flex-box-0 col" data-imageid="0">
+      <!-- <div class="flex margin-top-3">
+        <img id="venn" src="assets/home/venn-portfolio.svg" />
+      </div> -->
       <header class="welcome-description">
+
         <h2>I am a rising senior at Dartmouth College who studies anthropology, human-centered design, & computer science.</h2>
+        <!-- <h2>I design and develop meaningful products. </h2> -->
         <a id="projects-down" class="down-button" href="#projects-list">Projects&#8595;</a>
       </header>
 
       <div class="project-list" id="projects-list">
 
         <!--CRESimple-->
-        <a href="cresimple.html"><img class="view-image" src="assets/cresimple/CRESimple.png" /></a>
+        <!-- <a href="cresimple.html">
+          <img class="view-image" src="assets/cresimple/CRESimple.png" />
+        </a> -->
+
+
+
+        <a href="cresimple.html">
+          <div class="container">
+            <img class="view-image" src="assets/cresimple/CRESimple.png" />
+            <div class="overlay">
+              <div class="text">UX/UI Design & Marketing</div>
+            </div>
+          </div>
+        </a>
 
         <!--Peapod-->
-        <a href="peapod.html"><img class="view-image" src="assets/peapod/Peapod.png" /></a>
-        <!-- <div class="mask ">
-          <h2 class="title "><span>Peapod</span> <br />New York City </h2>
-          <p> I helped develop a strategy to capitalize on a $1MM opportunity to grow sales of NY local merchandise during my internship (Fall 2017).</p>
 
-        </div> -->
+        <a href="peapod.html">
+          <div class="container">
+            <img class="view-image" src="assets/peapod/Peapod.png" />
+            <div class="overlay">
+              <div class="text">User Research & Marketing</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- <a href="peapod.html">
+          <img class="view-image" src="assets/peapod/Peapod.png" />
+        </a> -->
 
         <!--CS52-->
 
-        <a href="cs52.html">
+        <!-- <a href="cs52.html">
           <img class="view-image" src="assets/cs52/WebDev.png" />
+        </a> -->
+
+        <a href="cs52.html">
+          <div class="container">
+            <img src="assets/cs52/WebDev.png" class="view-image">
+            <div class="overlay">
+              <div class="text">Web Development</div>
+            </div>
+          </div>
         </a>
-        <!-- <div class="mask">
-            <h2 class="title"><span>CS52: Full-Stack Web Development</span> <br />Dartmouth College </h2>
-            <p>
-              Topics covered: static pages, Internet protocols, layout, markup, event-driven asynchronous programming, deployment, security, scalability, and user experience.</p>
-          </div> -->
+
 
         <!--ASD-->
 
-        <a href="asd.html">
+        <!-- <a href="asd.html">
           <img class="view-image" src="assets/ASD/ASDlogo.png" />
+        </a> -->
+
+        <a href="asd.html">
+          <div class="container">
+            <img class="view-image" src="assets/ASD/ASDlogo.png" />
+            <div class="overlay">
+              <div class="text">UX/UI Design</div>
+            </div>
+          </div>
         </a>
-        <!-- <div class="mask ">
-          <h2 class="title "><span>DALI Lab</span> <br />Dartmouth College </h2>
-          <p> Outlined feature specs and designed user-flow for an iOS application that aims to teach children with Autism Spectrum Disorder how to practice a calming qigong massage.</p>
-          <button class="info navigate" data-imageid="5"><a href="asd.html">Check it out</a></button>
-        </div> -->
+
 
         <!--Design Thinking-->
 
-        <a href="designThinking.html">
+        <!-- <a href="designThinking.html">
           <img class="view-image" src="assets/DT/DesignThinkLogo.png" />
+        </a> -->
+
+        <a href="designThinking.html">
+          <div class="container">
+            <img class="view-image" src="assets/DT/DesignThinkLogo.png" />
+            <div class="overlay">
+              <div class="text">UX/UI Design & User Research</div>
+            </div>
+          </div>
         </a>
-        <!-- <div class="mask">
-            <h2 class="title "><span>ENGS12: Design Thinking</span> <br />Dartmouth College</h2>
-            <p> During my sophomore year of college, I was in a course called Design Thinking. Throughout the term I practiced creative, uninhibited, and free-form ideation, iteration, and production. </p>
-            <button class="info navigate" data-imageid="7"><a href="designThinking.html">Case Studies</a></button>
-          </div> -->
+
 
         <!--Libero-->
-        <a href="libero.html">
+        <!-- <a href="libero.html">
           <img class="view-image" src="assets/libero/Liberologo.png" />
+        </a> -->
+
+        <a href="libero.html">
+          <div class="container">
+            <img class="view-image" src="assets/libero/Liberologo.png" />
+            <div class="overlay">
+              <div class="text">UI Design</div>
+            </div>
+          </div>
         </a>
-        <!-- <div class="mask">
-            <h2 class="title"><span>DALI Lab</span> <br />Dartmouth College</h2>
-            <p>Designed an app that encourages people to get fit by virtually working out with others in real-time. Used Sketch to create designs and prototypes. </p>
-            <button class="info navigate" data-imageid="3"></button>
-          </div> -->
 
         <!--Kinekt-->
-        <a href="kinekt.html">
+        <!-- <a href="kinekt.html">
           <img class="view-image" src="assets/kinekt/Kinekt.png" />
+        </a> -->
+
+        <a href="kinekt.html">
+          <div class="container">
+            <img class="view-image" src="assets/kinekt/Kinekt.png" />
+            <div class="overlay">
+              <div class="text">UX/UI Design</div>
+            </div>
+          </div>
         </a>
         <!-- <div class="mask">
             <h2 class="title "><span>iXPERIENCE</span> <br />Cape Town, South Africa</h2>
@@ -124,6 +179,9 @@
       <a class="pdf-port" href="UX_Design_Portfolio.pdf" download>Download PDF Portfolio </a>
     </div>
 
+    <footer>
+      Made with ♥ by Nitasha. 2018.
+    </footer>
 
 </body>
 
