@@ -1000,7 +1000,7 @@ a.info {
 .flex-box-7 {
   margin-top: 20px;
   width: 80%;
-  margin-left: 5%
+  margin-left: 8%
 }
 
 .flex-box-9, .flex-box-5 {
@@ -1558,6 +1558,10 @@ footer li a:hover {
 
   .flex-box-7 li {
     margin: 5px 0
+  }
+
+  .flex-box-7 {
+    margin-left: 5%;
   }
 
   #dt-row {
