@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="512px" viewBox="0 0 1024 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="" id="Path" stroke="#979797" fill-rule="nonzero"></path>
+        <polygon id="Path-2" stroke="#B8E986" stroke-width="5" fill="#50E3C2" fill-rule="nonzero" points="0 0 110.5 512 156.5 362 369.5 270 193.5 256 193.5 126.5 429.5 126.5 468.5 426 326 443.5 652 512 652 346 512 231.5 531 126.5 693.5 0 820.5 139 820.5 362 975 512 1024 105 848.5 0"></polygon>
+    </g>
+</svg>
