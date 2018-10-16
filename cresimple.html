@@ -46,11 +46,13 @@
 
     <div class="flex-box col">
       <div class="flex-box-9 col">
-        <div class="flex-box black col">
+        <div class="flex-box black col tb-p cre-section">
           <p>
-            CRE Simple Technologies is a commercial real estate fin-tech company located in Oakland, California. Within 10 weeks, I QA'ed their web platform, redesiged the 'Deal Team Management' workflow and 'Personal Details' screens, and produced
-            the
-            content for their initial marketing campaign.
+            <span>CRE Simple Technologies is a commercial real estate fin-tech company located in Oakland, California. Within 10 weeks, I QA'ed their web platform, redesiged the 'Deal Team Management' workflow and 'Personal Details'
+              screens,
+              and produced
+              the
+              content for their initial marketing campaign.</span>
           </p>
           <p>
             Disclaimer: Prior to this internship I knew absolutely nothing about the commercial real estate industry. During my first week, my manager explained it to me using a very detailed visual.
@@ -61,22 +63,58 @@
           </div>
         </div>
 
-        <div class="flex cre-section align-items-center col">
+
+
+
+
+
+
+
+
+
+        <div class="flex cre-section align-self-center align-items-center col">
           <h2>UX/UI Design</h2>
-          <div class="flex">
+          <div class="flex become-vertical">
             <div class="flex col cre-blue-bg">
-              <h1>Transaction Details</h1>
-              <img class="cre-img" src="assets/cresimple/TD5_copy.png" />
+              <div class="cre-bluebg-header flex align-items-center space-between">
+                <h1>(1) Transaction Details</h1>
+                <div class="drive-link">
+                  <a href="https://drive.google.com/drive/folders/1BJIHRN5PH9FUgrlRhkMNHtGaFzqNqSqz?usp=sharing" rel="noopener noreferrer" target="_blank"> View all screens</a>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1p6ASawbsAoUi71UQGPnhV5hmoOz0xMdy/view?usp=sharing" rel="noopener noreferrer" target="_blank"><img class="cre-img" src="assets/cresimple/TD5_copy.png" /></a>
             </div>
-            <div class="flex col margin-left-3">
+            <div class="flex col margin-left-3 tb-p justify-center">
               <p>
-                A significant part of my internship focused on UX/UI design. Specifically, I worked on the Deal Team Management workflow, which is a process used by mortgage brokers when they create a deal on the platform, specifically located in
-                the Transaction Details section of their loan application. Deal team creation is an extremely important step in the deal set-up process because it is where security and account access parameters are defined. As a user, you don’t have
-                access to other users on the platform if you haven’t worked with them before. So when you work with someone for the first time, you have to add in all of their information as if you are “inviting” them to the platform as a new user.
+                A significant part of my internship focused on UX/UI design. Specifically, I worked on the Deal Team Management workflow, which is <span>a process used by mortgage brokers when they create a deal on the platform, specifically located
+                  in
+                  the Transaction Details section of their loan application.</span> Deal team creation is an extremely important step in the deal set-up process because <span>it is where security and account access parameters are defined.</span> As
+                a user, you
+                don’t have
+                access to other users on the platform if you haven’t worked with them before. So when you work with someone for the first time, you have to add in all of their information as if you were “inviting” them to the platform as a new user.
               </p>
             </div>
           </div>
-          <p class="margin-top-3">
+          <div class="margin-top-3 flex col become-vertical tb-p subtitle">
+            <h4>
+              Design constraints:
+            </h4>
+            <ol>
+              <li>
+                <span>Security and privacy:</span> As a user, I am not allowed to know who else is on the platform unless I’ve worked with them through the platform before.
+              </li>
+              <li>
+                <span>Information at all times: </span> As a user, I want to be able to see everyone in my deal team on the screen at the same time.
+              </li>
+              <li>
+                <span>Multiple people per role: </span>As a user, I want the ability to assign multiple people to the same role.
+              </li>
+            </ol>
+            </p>
+            <h4> Justification for Design: </h4>
+
+          </div>
+          <p class=" flex become-vertical">
             The first, hasty implementation of this page solely consisted of three dropdown search bars for the Mortgage Broker, Borrower, and Escrow roles, respectively. My redesign abides by the platform’s anonymity policy and constraints,
             while allowing the user to seamlessly arrange their deal team in a matter of seconds. In each drop down, the user can search for and add all of the necessary people in that role by either typing a name in the search bar in the given
             section or by tapping on the circle next to the user’s name. At the top of the screen, the user can see each member they’ve already added in the form of a card. If the user needs to remove someone, they can click on the three-dot “more”
@@ -84,51 +122,64 @@
           </p>
         </div>
 
-        <div class="flex cre-section align-items-center">
-          <div class="flex col cre-blue-bg">
-            <h1>Manage Deal Team </h1>
-            <img class="cre-img" src="assets/cresimple/v4-4.png" />
+        <div class="flex cre-section align-self-center align-items-center">
+          <div class="flex become-vertical">
+            <div class="flex col cre-blue-bg">
+              <div class="cre-bluebg-header flex align-items-center space-between">
+                <h1>(2) Manage Deal Team </h1>
+                <div class="drive-link">
+                  <a href="https://drive.google.com/drive/folders/1CrUIV7L6EuV56r01anFqnN_OA_ssaom9?usp=sharing" rel="noopener noreferrer" target="_blank">View all screens</a>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1_wwALK57SOPYXKOdtDPqrCIjCaPB4Rl9/view?usp=sharing" rel="noopener noreferrer" target="_blank"><img class="cre-img" src="assets/cresimple/v4-4.png" /></a>
+            </div>
+            <div class="flex col margin-top-3 margin-left-3 justify-center tb-p">
+              <p>
+                <span>Once the user completes their initial deal team setup, they are allowed to edit their deal team in a different view, ‘Manage Deal Team’.</span> Here, the layout appeals to the user’s memory as it is mimics the
+                layout the user had seen when they originally created their deal team. The user can only remove people in the top section, the dropdown selections are
+                grayed
+                out. However, a user can still search and add users in each of the role assignment dropdowns like they did before in the Transaction Details section.
+              </p>
+            </div>
           </div>
-          <div class="flex col margin-left-3">
-            <p>
-              Once the user completes their initial deal team setup, they are allowed to edit their deal team in a different view, ‘Manage Deal Team’. Here, the layout appeals to the user’s memory as it is mimics the
-              layout the user had seen when they originally created their deal team. Since the user can only remove people in the top section, but can search and add users in each of the role assignment dropdowns, the dropdown selections are grayed
-              out.
-          </div>
-          </p>
-
         </div>
 
+        <div class="flex-box cre-section align-self-center align-items-center">
+          <div class="flex become-vertical">
+            <div class="flex col cre-blue-bg">
+              <div class="cre-bluebg-header flex align-items-center space-between">
+                <h1>(3) Personal Details</h1>
+                <div class="drive-link">
+                  <a href="https://drive.google.com/drive/folders/1zBqX8X4H-lAkQJZsS2wTtqvxhRe9dyZ_?usp=sharing" rel="noopener noreferrer" target="_blank">View all screens</a>
+                </div>
+              </div>
 
-        <div class="flex-box cre-section align-items-center">
-          <div class="flex col cre-blue-bg">
-            <h1>Personal Details</h1>
-            <img class="cre-img" src="assets/cresimple/financial-details.png" />
-          </div>
-          <div class="flex col margin-left-3">
-            <p>
-              Currently, the platform uses form summary views for each section in the 'My Details' profile for each user. However, since every part of the platform should add value to the user, I took the initiative to redesign the
-              financial
-              details page so that it calculates one's net worth rather than simply listing out the various assets and liabilities a user has. Now, users can directly add assets and liabilites to this page and watch their net worth change
-              as
-              a result.
-            </p>
+              <img class="cre-img" src="assets/cresimple/financial-details.png" />
+            </div>
+            <div class="flex col margin-top-3 margin-left-3 justify-center tb-p">
+              <p>
+                Currently, the platform uses form summary-views in each section of the 'My Details' tab for each user. However, since every part of the platform should add value to the user, I took the initiative to redesign the
+                financial
+                details page so that <span>it calculates one's net worth rather than simply listing out the various assets and liabilities a user has.</span> Now, users can directly add assets and liabilites to this page and watch their net worth
+                change
+                as
+                a result.
+              </p>
+            </div>
           </div>
         </div>
 
         <div class="flex cre-section align-items-center col">
           <h2>Marketing</h2>
-          <div class="flex col">
+          <div class="flex col tb-p">
             <p>
-              I spearheaded a formal marketing campaign with the Operations team toward the latter part of my internship and designed the ‘Tenant List’ and ‘Recently Funded Purchase’ templates.
+              I spearheaded a formal marketing campaign with the Operations team toward the latter part of my internship and designed the <span>‘Tenant List’ </span>and <span>‘Recently Funded Purchase’</span> templates.
 
               Throughout the process, I had immense design flexibility and was able to incorporate elements of “delight” that didn't necessarily exist on the platform at the time. I’ve continued to work on marketing material into the fall
               of
               my
               senior year!
             </p>
-
-
           </div>
 
           <div class="flex">
@@ -140,7 +191,7 @@
       </div>
 
 
-      <div class="flex-box col cre-section projects-footer">
+      <div class="flex-box col projects-footer">
         <div class="flex-box align-items-center blackbg">
           <h2>View Other Projects</h2>
         </div>

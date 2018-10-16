@@ -425,6 +425,12 @@ p {
 .cre-blue-bg {
   background-color: #2d3343;
   padding: 20px;
+  height: 100%;
+}
+
+.drive-link a {
+  color: white;
+  font-size: 18px;
 }
 
 .peapod-blue-bg {
@@ -451,6 +457,36 @@ p {
 
 .align-items-center {
   align-items: center;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.subtitle {}
+
+.subtitle h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  display: inline;
+}
+
+.subtitle ol li {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.flex-box-9 h4 {
+  margin: 0;
+  color: black;
+  font-size: 30px;
+}
+
+.flex-box-9 p {
+  font-size: 20px;
+  color: black;
 }
 
 .cre-img {
@@ -617,7 +653,7 @@ h3 {
 
 .title span {
   font-weight: 700;
-  font-size: 17px
+  font-size: 17px;
 }
 
 .view p {
@@ -724,6 +760,7 @@ h1 a {
 .tb-p span {
   font-weight: 400;
   background-color: #eff58a;
+  width: auto;
 }
 
 #bullets {
@@ -758,6 +795,27 @@ h1 a {
 
 .project-list a {
   margin: 10px;
+}
+
+.flex-box-8 h3 {
+  font-size: 24px;
+  margin-top: 5%;
+}
+
+.survey-results span {
+  color: rgb(255, 54, 54);
+}
+
+.flex-box-8 h4 {
+  font-size: 20px;
+  color: rgb(66, 66, 66);
+  margin: 0px;
+}
+
+.flex-box-8 ul li {
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+  margin: 0px;
 }
 
 .pdf-port {
@@ -949,6 +1007,11 @@ a.info {
   margin: 20px
 }
 
+.cs52-section {
+  padding-bottom: 5%;
+  border-bottom: black solid 1px;
+}
+
 .col {
   flex-direction: column;
 }
@@ -1009,9 +1072,14 @@ a.info {
   margin-left: 8%
 }
 
-.flex-box-9, .flex-box-5 {
+.flex-box-5 {
   width: 70%;
   margin-left: 15%
+}
+
+.flex-box-9 {
+  width: 80%;
+  margin-left: 10%;
 }
 
 .mySlides {
@@ -1026,11 +1094,6 @@ a.info {
   display: flex;
 }
 
-.flex-box-9 p {
-  color: black;
-  font-size: 18px;
-}
-
 .black {
   color: black;
 }
@@ -1042,6 +1105,7 @@ a.info {
 .flex-box-9 h1 {
   color: white;
   margin-left: 5%;
+  font-size: 40px;
 }
 
 .flex-box-10 button {
@@ -1063,6 +1127,8 @@ a.info {
 
 .cre-section {
   margin-top: 5%;
+  padding-bottom: 5%;
+  border-bottom: black solid 1px
 }
 
 .peapod-section {
@@ -1070,7 +1136,6 @@ a.info {
 }
 
 .cs52-section {
-  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -1083,12 +1148,6 @@ a.info {
 #three-things {
   margin-top: 2%;
   margin-bottom: 5%;
-}
-
-.flex-box-8 h4 {
-  font-size: 16px;
-  color: rgb(66, 66, 66);
-  margin: 0px;
 }
 
 #feedback {
@@ -1194,7 +1253,6 @@ a.info {
 
 .flex-box-6 p {
   font-size: 20px;
-  text-align: center
 }
 
 .flex-box-7 p {
@@ -1376,10 +1434,9 @@ footer li a:hover {
     font-size: 18px
   }
 
-  .col p {
+  /* .col p {
     margin: 0 10px
-  }
-
+  } */
   #next {
     text-align: left
   }
@@ -1637,6 +1694,15 @@ footer li a:hover {
 
   .projects-footer {
     display: none;
+  }
+
+  #cre-lesson {
+    width: 100%;
+    height: 100%;
+  }
+
+  .become-vertical {
+    flex-direction: column;
   }
 
   .row-1 {
