@@ -9,6 +9,50 @@ html, body {
   margin-left: 20%;
 }
 
+.description-box {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 224, 249);
+  padding: 5% 10%;
+  align-items: center;
+}
+
+.description-box p {
+  margin: 0;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+}
+
+.kinekt-info-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+  height: 30vh;
+}
+
+.kinekt-info-item h4 {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
+.info-item h4 {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -46,7 +90,7 @@ html, body {
 
 .text {
   color: white;
-  font-size: 4vh;
+  font-size: 3.5vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,6 +98,10 @@ html, body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text p {
+  margin: 1vh 0 0 0;
 }
 
 #gif, #nk {
@@ -291,17 +339,25 @@ p {
 .flex-box-1 h4 {
   color: white;
   font-size: 3vh;
-  margin: 1% 1%;
+  margin: 5% 0%;
   padding: 10px;
   border-radius: 25px;
 }
 
+.description-bubbles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5% 5%;
+}
+
 .blue-bub {
-  background-color: rgb(90, 232, 232);
+  background-color: rgb(135, 237, 237);
 }
 
 .purple-bub {
-  background-color: rgb(145, 22, 255);
+  background-color: rgb(131, 134, 235, 0.5);
 }
 
 .green-bub {
@@ -329,12 +385,6 @@ p {
 
 .linked-list a:hover {
   color: #4faab3
-}
-
-.description-bubbles {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 5%;
 }
 
 .view h2 {
@@ -797,9 +847,13 @@ h1 a {
   margin: 10px;
 }
 
+.more {
+  margin: 10px;
+}
+
 .flex-box-8 h3 {
   font-size: 24px;
-  margin-top: 5%;
+  margin: 5% 0 2% 0;
 }
 
 .survey-results span {
@@ -873,7 +927,7 @@ h1 a {
 .DT-flex-section {
   display: flex;
   width: 100%;
-  margin: 20px 20px 40px 20px;
+  /* margin: 20px 20px 40px 20px; */
   padding: 1%;
 }
 
@@ -930,6 +984,12 @@ h1 a {
 
 .flex-box-7 ul {
   justify-content: space-around
+}
+
+.flex-box-7 h5 {
+  font-size: 30px;
+  text-align: center;
+  color: black
 }
 
 .bullets-80 {
@@ -1009,7 +1069,6 @@ a.info {
 
 .cs52-section {
   padding-bottom: 5%;
-  border-bottom: black solid 1px;
 }
 
 .col {
@@ -1069,7 +1128,7 @@ a.info {
 .flex-box-7 {
   margin-top: 20px;
   width: 80%;
-  margin-left: 8%
+  margin-left: 9%
 }
 
 .flex-box-5 {
@@ -1128,7 +1187,6 @@ a.info {
 .cre-section {
   margin-top: 5%;
   padding-bottom: 5%;
-  border-bottom: black solid 1px
 }
 
 .peapod-section {
@@ -1256,7 +1314,7 @@ a.info {
 }
 
 .flex-box-7 p {
-  margin: 5px 0 5px 0px
+  margin: 0;
 }
 
 .flex-box-7 p {
@@ -1469,10 +1527,11 @@ footer li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   .description-bubbles h4 {
-    font-size: 2vh;
+    font-size: 1vh;
   }
 
   .col-2 {
