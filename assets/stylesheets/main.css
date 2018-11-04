@@ -122,7 +122,7 @@ html, body {
   margin: 50px 200px;
 } */
 .welcome-description {
-  margin: 10% 0 5% 0;
+  margin: 5% 0 5% 0;
 }
 
 .welcome-description h5 {
@@ -294,28 +294,43 @@ button a {
 nav li {
   color: #868686;
   height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .nav-icon {
   display: flex;
   flex-direction: column;
   align-self: center;
+  height: 12vh;
 }
 
 nav li a img {
-  width: 30%;
-  margin: 5% 0% 25% 0%;
+  height: 8vh;
+  padding: 1vh;
+}
+
+/* nav li a {
+  padding: 20%;
+} */
+nav li a img:hover {
+  background-color: #BDBFF2;
 }
 
 nav {
   padding-top: 50px;
   justify-content: space-between;
+  justify-content: center;
 }
 
 nav ul {
-  margin: 0;
+  margin: 5% 0 0 0;
   overflow: hidden;
-  justify-content: flex-end;
+  padding: 0;
+  width: 50vw;
+  justify-content: space-around;
+  display: flex;
 }
 
 .space-between {
@@ -1555,7 +1570,7 @@ footer li a:hover {
   }
 
   .welcome-description {
-    margin: 15% 0 5% 0;
+    margin: 10% 0 5% 0;
   }
 
   .welcome-description h5 {
@@ -1663,16 +1678,27 @@ footer li a:hover {
     text-align: center;
   }
 
-  .logo, nav, nav ul {
+  .logo, nav {
     width: 100%
   }
 
   nav ul {
     padding: 0;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
   }
 
+  .nav-icon {
+    height: 5%;
+  }
+
+  /* nav li a {
+    width: 20vw
+  } */
   nav li a img {
-    height: 30%;
+    height: 5vh;
+    margin: 10%;
   }
 
   .logo {
@@ -1689,8 +1715,7 @@ footer li a:hover {
   }
 
   nav ul {
-    margin-top: 20px;
-    justify-content: center;
+    margin-top: 10%;
   }
 
   #dt-row, footer ul {
