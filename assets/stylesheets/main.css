@@ -291,8 +291,20 @@ button a {
   color: #000000
 }
 
-.unselected, nav li {
-  color: #868686
+nav li {
+  color: #868686;
+  height: 60%;
+}
+
+.nav-icon {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+nav li a img {
+  width: 30%;
+  margin: 5% 0% 25% 0%;
 }
 
 nav {
@@ -302,21 +314,19 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .space-between {
   justify-content: space-between;
 }
 
-nav li {
-  margin: 10px;
+/* nav li {
+  margin: 10px 20px;
   text-align: center;
   color: black;
-}
-
+} */
 li a {
   color: black;
   font-size: 13px;
@@ -1655,6 +1665,14 @@ footer li a:hover {
 
   .logo, nav, nav ul {
     width: 100%
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav li a img {
+    height: 30%;
   }
 
   .logo {
