@@ -806,7 +806,11 @@ h3 {
 .anth3 button {
   border: 0.5px solid black;
   background-color: none;
-  padding: 0 0 1px 0;
+  padding: 0 1px 1px 1px;
+}
+
+.anth3 a:hover {
+  background-color: #BDBFF2;
 }
 
 .description h1, h1 {
@@ -956,6 +960,10 @@ h1 a {
   padding: 5px;
   border: 0.5px solid black;
   color: black;
+}
+
+.flex-box-pdf a:hover {
+  background-color: #BDBFF2;
 }
 
 .flex-box-pdf {
