@@ -322,7 +322,7 @@ nav {
 }
 
 nav ul {
-  margin: 5% 0 0 0;
+  margin: 7% 0 0 0;
   overflow: hidden;
   padding: 0;
   width: 50vw;
@@ -596,7 +596,7 @@ p {
 }
 
 .kinekt-img {
-  margin: 40px
+  margin: 20px
 }
 
 .ASD-tut-img {
@@ -1219,7 +1219,7 @@ a.info {
   justify-content: space-around;
 }
 
-.flex-box-1, .flex-box-2, .flex-box-3, .flex-box-4, .flex-box-6, .flex-box-10 {
+.flex-box-1, .flex-box-2, .flex-box-3, .flex-box-4, .flex-box-10 {
   margin-top: 20px;
   width: 80%;
   margin-left: 10%
@@ -1230,6 +1230,12 @@ a.info {
 }
 
 .flex-box-10 {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%
+}
+
+.flex-box-6 {
   margin-top: 20px;
   width: 60%;
   margin-left: 20%
@@ -1248,8 +1254,9 @@ a.info {
 }
 
 .flex-box-5 {
-  width: 70%;
-  margin-left: 15%
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%
 }
 
 .flex-box-9 {
@@ -1587,9 +1594,9 @@ footer li a:hover {
     height: auto;
   }
 
-  .text {
+  .text p {
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
 
   .project-list {
